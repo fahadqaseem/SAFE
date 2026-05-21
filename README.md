@@ -110,10 +110,12 @@ The SAFE project and this codebase are inspired by and built on the following re
 Please cite our work if you find it useful:
 
 ```bibtex
-@article{gu2025safe,
-  title={SAFE: Multitask Failure Detection for Vision-Language-Action Models},
+@article{gu2026safe,
+  title={Safe: Multitask failure detection for vision-language-action models},
   author={Gu, Qiao and Ju, Yuanliang and Sun, Shengxiang and Gilitschenski, Igor and Nishimura, Haruki and Itkina, Masha and Shkurti, Florian},
-  journal={arXiv preprint arXiv:2506.09937},
-  year={2025}
+  journal={Advances in Neural Information Processing Systems},
+  volume={38},
+  pages={40041--40076},
+  year={2026}
 }
 ```
