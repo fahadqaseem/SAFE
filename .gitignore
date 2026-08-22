@@ -169,3 +169,8 @@ slurm_logs
 experiments/out/*.pt
 experiments/out/*.npz
 experiments/out/*.pkl
+
+# Model checkpoints and cached features (regenerable, ~53 MB)
+*.ckpt
+baseline_*.pkl
+modified_*.pkl
