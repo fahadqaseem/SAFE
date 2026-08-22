@@ -180,6 +180,36 @@ class IndepModelConfig(ModelConfig):
     rmean: bool = False
 
 @dataclass
+class HnsModelConfig(ModelConfig):
+    """Hide-and-Seek probe. Architecture is identical to IndepModelConfig on purpose;
+    the loss and the temporal aggregation are independent switches so that their
+    effects can be separated. See failure_prob/model/hns.py."""
+    name: str = "hns"
+    n_layers: int = 2
+    hidden_dim: int = 256
+    final_act_layer: str = "sigmoid"
+    n_history_steps: int = 1
+
+    # Only used when loss_type == "safe" (SAFE's original hinge).
+    use_threshold: bool = False
+    threshold: float = 50
+
+    # The two switches under study.
+    loss_type: str = "hns"   # "safe" | "inter" | "intra" | "hns"
+    agg: str = "none"        # "cumsum" (SAFE default) | "rmean" | "none"
+
+    # Hide-and-Seek hyperparameters (arXiv:2605.30834).
+    margin_r: float = 0.5    # m_r, inter-trajectory margin
+    margin_o: float = 0.3    # m_o, intra-trajectory margin
+    lambda_intra: float = 1.0
+    hns_beta: float = 0.0    # > 0 uses a logsumexp soft-max in L_inter
+
+    # Required by ModelConfig; `agg` supersedes these for this model.
+    cumsum: bool = False
+    rmean: bool = False
+
+
+@dataclass
 class LstmModelConfig(ModelConfig):
     name: str = "lstm"
     n_layers: int = 1
@@ -299,6 +329,7 @@ cs.store(group="dataset", name="base_pizero_fast_droid", node=PizeroFastDroidDat
 
 # Register model variants into the "model" config group.
 cs.store(group="model", name="base_indep", node=IndepModelConfig)
+cs.store(group="model", name="base_hns", node=HnsModelConfig)
 cs.store(group="model", name="base_lstm", node=LstmModelConfig)
 cs.store(group="model", name="base_embed", node=EmbedModelConfig)
 cs.store(group="model", name="base_rnd", node=RNDModelConfig)

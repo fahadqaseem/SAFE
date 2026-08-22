@@ -161,3 +161,11 @@ slurm_logs
 /logs
 /artifacts
 /setup_envs.bash
+# Downloaded real-robot rollout dumps (47 GB) - never commit
+/openvla_widowx
+/rollouts_all
+
+# Large experiment artifacts (regenerate with experiments/*.py)
+experiments/out/*.pt
+experiments/out/*.npz
+experiments/out/*.pkl
