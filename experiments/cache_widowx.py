@@ -28,6 +28,7 @@ import sys
 import time
 
 import numpy as np
+import pandas as pd
 import torch
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -53,8 +54,9 @@ def main():
         sys.exit(f"no pickles under {DATA}")
     print(f"found {len(files)} episode pickles")
 
-    feats, succ, tids, eps, folders = [], [], [], [], []
+    feats, succ, tids, eps, folders, hand = [], [], [], [], [], []
     descs = {}
+    hand_cols = None
     t0 = time.time()
 
     for n, f in enumerate(files):
@@ -62,6 +64,15 @@ def main():
         h = torch.stack(d["hidden_states"])              # (T, 7, 4096) bfloat16
         assert h.ndim == 3 and h.shape[1] == 7 and h.shape[2] == 4096, h.shape
         x = TOKEN_REDUCE[a.token](h.float())             # (T, 4096)
+
+        # The sibling .csv holds SAFE's precomputed handcrafted metrics: per-step
+        # token entropies / probabilities and action deltas. These are the
+        # training-free baselines in SAFE's Table 1, and cost nothing to keep.
+        csv_path = f[:-4] + ".csv"
+        dfm = pd.read_csv(csv_path)
+        if hand_cols is None:
+            hand_cols = [c for c in dfm.columns if c != "action/timestep"]
+        hand.append(dfm[hand_cols].to_numpy(dtype=np.float32))
 
         feats.append(x)
         succ.append(int(d["episode_success"]))
@@ -77,6 +88,8 @@ def main():
     print(f"\nepisode lengths present: {lengths}")
     assert lengths == [50], f"expected uniform length 50, got {lengths}"
 
+    hand_arr = torch.from_numpy(np.stack(hand))          # (N, 50, n_metrics)
+    assert not torch.isnan(hand_arr).all(dim=(0, 1)).any(), "an all-NaN metric column"
     features = torch.stack(feats)                        # (N, 50, 4096)
     success = torch.tensor(succ, dtype=torch.long)
     task_id = torch.tensor(tids, dtype=torch.long)
@@ -112,7 +125,10 @@ def main():
         "features": features, "success": success, "task_id": task_id,
         "episode_idx": torch.tensor(eps, dtype=torch.long),
         "folders": folders, "descs": descs, "token_reduce": a.token,
+        "hand": hand_arr, "hand_cols": hand_cols,
     }, path)
+    print(f"handcrafted metrics cached: {tuple(hand_arr.shape)} "
+          f"({len(hand_cols)} columns from the per-episode CSVs)")
     print(f"\nwrote {path}  ({os.path.getsize(path) / 1e6:.0f} MB, {time.time() - t0:.0f}s total)")
 
 

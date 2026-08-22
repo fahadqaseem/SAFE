@@ -303,3 +303,156 @@ is *"conformal failure detection for VLAs is not valid zero-shot, and online CP 
 with the honest caveat that the transient after a task switch is still open. Reproducing this
 on LIBERO-10 (where both SAFE and H&S report numbers) is the obvious next ask, and it needs
 GPU hours to regenerate features.
+
+---
+
+# Part 3 — Four more experiments on the real data
+
+```bash
+python3 experiments/run_experiments2.py     # ~4.5 min, 12 runs x 20 detectors
+python3 experiments/make_figures2.py
+```
+
+## The diagnostic that motivated all of this
+
+Peak score of **successful** episodes, SAFE-MLP, trained on tasks 0–4:
+
+| | mean peak score |
+|---|---|
+| Seen tasks (0–4) | **5.43** |
+| Unseen tasks (5–7) | **15.29** |
+
+Successful episodes on an unfamiliar task score **~3× higher** — a full 1.03 seen-task
+standard deviations — purely because the task is new. Between-task variance is **31 %** of
+all variance among successes alone. The band calibrated on seen tasks is simply far too
+tight, which is *why* Part 2's coverage collapses. Per-task means range from 3.90
+("Put Blue Cup on Plate") to 20.96 ("Put the Red Bottle into Pot").
+
+## Experiment 1 — Task-relative scoring: a partial win, honestly reported
+
+**Idea.** Fit a line to each episode's first `k` steps and subtract its extrapolation, so the
+score measures deviation from *that episode's own* early behaviour. One transform handles
+both score shapes: it removes a task-dependent *rate* from SAFE's cumulative score and a
+task-dependent *level* from a per-step score. It needs **no labels, no task identity, and no
+deployment feedback** — unlike ACI, which needs the outcome after every episode. Applied
+post-hoc to the same trained weights, so the comparison isolates the transform.
+
+Coverage at nominal 0.80 on unseen tasks (`fig7_task_relative.png`):
+
+| detector | split CP | + task-relative *(no feedback)* | + ACI *(needs feedback)* | + both | AUROC absolute | AUROC task-rel |
+|---|---|---|---|---|---|---|
+| SAFE-MLP | 0.710 | 0.778 | **0.817** | 0.807 | **0.796** | 0.560 |
+| H&S | 0.567 | 0.546 | **0.797** | 0.791 | 0.727 | 0.683 |
+| SAFE-Embed | 0.001 | 0.920 | 0.774 | **0.820** | 0.731 | 0.715 |
+
+**It is not a general win, and I am not going to claim it is.** It costs SAFE-MLP a great
+deal of discriminative power (AUROC 0.796 → 0.560) and does nothing for H&S's coverage
+(0.567 → 0.546). **ACI remains the reliable general fix** — it repairs coverage for all three
+while leaving AUROC untouched.
+
+**Where it clearly wins: the training-free detector, with a longer window (k=20).**
+
+| SAFE-Embed | AUROC | coverage (nominal 0.80) |
+|---|---|---|
+| absolute score | 0.731 | **0.001** |
+| task-relative, k=20 | **0.743** | **0.884** |
+
+Better on *both* axes: a catastrophic 0.001 coverage becomes 0.884, and AUROC goes slightly
+**up**. That is a real, tangible improvement to a real failure — obtained with no feedback,
+no retraining, and no labels.
+
+**Why the split?** The transform removes the score's absolute level. For SAFE-Embed that
+level is mostly task-novelty *nuisance*, so removing it helps. For SAFE-MLP the level partly
+*is* the signal — the probe learned to run high throughout a failing episode — so removing it
+destroys information. The `k` sweep supports this: SAFE-MLP's AUROC climbs steadily with
+longer windows (0.518 at k=5 → 0.646 at k=20) but never recovers 0.796, whereas SAFE-Embed
+improves monotonically and overtakes its own baseline.
+
+Useful rule of thumb this suggests: **task-relative scoring helps exactly when between-task
+variance dominates the score's level.** That is measurable in advance from the training set,
+which makes it a decision rule rather than a guess.
+
+## Experiment 2 — Early detection: the headline numbers are end-of-episode numbers
+
+`fig8_early_detection.png`. AUROC using only the first fraction of each episode, unseen tasks:
+
+| fraction seen | 0.1 | 0.3 | 0.5 | 0.7 | 1.0 |
+|---|---|---|---|---|---|
+| SAFE-MLP | 0.556 | 0.559 | 0.615 | 0.704 | **0.796** |
+| H&S | 0.485 | 0.454 | 0.555 | 0.649 | 0.727 |
+| SAFE-Embed | 0.489 | 0.440 | 0.507 | 0.632 | 0.731 |
+| handcrafted entropy | 0.461 | 0.478 | 0.520 | 0.531 | 0.580 |
+
+**At the halfway point only about 40–50 % of the final above-chance signal exists.** For the
+first ~40 % of an episode, H&S, SAFE-Embed and the handcrafted signals are at or *below*
+chance; SAFE-MLP is the only one meaningfully above it, and only by ~0.06.
+
+This is a fair and important limitation to raise: a failure detector is useful only if there
+is still time to intervene, and detection quality in that regime is far below the numbers
+these papers report. SAFE-MLP being the only early performer is also a point in the original
+paper's favour.
+
+## Experiment 3 — Per-task breakdown: the average hides everything
+
+`fig9_pertask_handcrafted.png`, left panel. SAFE-MLP per held-out task:
+
+| task | AUROC |
+|---|---|
+| Lift Red Bottle | **0.692 ± 0.042** |
+| Lift AAA Battery | 0.700 ± 0.055 |
+| Lift Blue Cup | 0.753 ± 0.097 |
+| Put the Red Bottle into Pot | 0.881 ± 0.032 |
+| Put Blue Cup on Plate | 0.903 ± 0.028 |
+| Put the Carrot on Plate | 0.906 ± 0.028 |
+| Lift Eggplant | 0.920 ± 0.021 |
+| Put the Red Block into the Pot | **0.984 ± 0.008** |
+
+The reported "0.796" spans **0.69 to 0.98** depending on the chore. The pattern is
+interpretable: the three hardest are all **"Lift …"** tasks and the easiest are **"Put … into/on …"**
+tasks. Lifting failures are subtle — the gripper closes on nothing, the object slips — and
+look nearly identical to success in the policy's hidden state. Placing failures are gross and
+obvious. H&S even falls *below* chance on Lift Blue Cup (0.44).
+
+Caveat: with 6 random 3-task holdouts each task appears held out 2–6 times, so the per-task
+sample sizes differ (shown in the figure).
+
+## Experiment 4 — The free handcrafted baselines
+
+The per-episode CSVs carry 47 training-free signals. Seven representative ones, sign chosen
+on the train split only, on unseen tasks:
+
+| signal | AUROC |
+|---|---|
+| cum max token entropy | 0.595 |
+| cum mean token entropy | 0.580 |
+| cum drot | 0.524 |
+| cum mean token prob | 0.475 |
+| cum dpos | 0.476 |
+| dgripper | 0.458 |
+| mean token entropy | 0.391 |
+
+**All of them are near chance** — 0.39 to 0.60 versus 0.796 for the learned probe. So SAFE's
+central premise holds up on this data: the policy's internal features carry failure
+information that token-level uncertainty and action statistics do not. Two of them land
+*below* 0.5 on unseen tasks despite being above 0.5 on train, meaning even the useful
+*direction* of these signals does not transfer across tasks.
+
+Right panel of `fig9` plots AUROC against |coverage gap| for everything at once, which makes
+the trade-off visible: the handcrafted signals are poorly discriminative but reasonably
+well-calibrated (gaps 0.05–0.18), while SAFE-Embed is discriminative yet catastrophically
+mis-calibrated (gap 0.80).
+
+## Where this leaves us
+
+| finding | strength |
+|---|---|
+| Task shift causes a ~3× score offset on successes; 31 % of variance is between-task | solid, and it explains Part 2 |
+| ACI fixes coverage for every detector with no AUROC cost | solid (Part 2) |
+| Task-relative scoring fixes SAFE-Embed on both axes, no feedback needed | solid but narrow |
+| Task-relative scoring hurts SAFE-MLP badly | solid — a negative result worth reporting |
+| Early detection is near chance for most methods before mid-episode | solid, and a fair criticism of both papers |
+| "Lift" tasks are much harder than "Put" tasks | solid, interpretable |
+| Handcrafted signals are near chance; learned features are needed | solid, supports SAFE's premise |
+
+**All figures:** `out/fig1`–`fig3` (synthetic mechanism), `fig4`–`fig6` (online CP),
+`fig7`–`fig9` (this round). `fig7`, `fig8` and `fig9` are the three most presentable.

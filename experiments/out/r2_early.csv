@@ -1,0 +1,2401 @@
+fold,seed,detector,frac,auroc
+0,0,SAFE-MLP,0.1,0.5766852812126048
+0,0,SAFE-MLP,0.2,0.5766852812126048
+0,0,SAFE-MLP,0.3,0.581970482648584
+0,0,SAFE-MLP,0.4,0.5945353011567611
+0,0,SAFE-MLP,0.5,0.632828081372158
+0,0,SAFE-MLP,0.6,0.6716194654966094
+0,0,SAFE-MLP,0.7,0.6969485440765856
+0,0,SAFE-MLP,0.8,0.7323494216194655
+0,0,SAFE-MLP,0.9,0.7542879936178699
+0,0,SAFE-MLP,1.0,0.7733346629437575
+0,0,SAFE-MLP [task-rel],0.1,0.45382927802153966
+0,0,SAFE-MLP [task-rel],0.2,0.4588153171120862
+0,0,SAFE-MLP [task-rel],0.3,0.4442560829676905
+0,0,SAFE-MLP [task-rel],0.4,0.447746310331073
+0,0,SAFE-MLP [task-rel],0.5,0.47138013562026326
+0,0,SAFE-MLP [task-rel],0.6,0.5073793378540088
+0,0,SAFE-MLP [task-rel],0.7,0.5080773833266853
+0,0,SAFE-MLP [task-rel],0.8,0.5171519744714799
+0,0,SAFE-MLP [task-rel],0.9,0.5259274032708416
+0,0,SAFE-MLP [task-rel],1.0,0.5370961308336657
+0,0,H&S,0.1,0.543677702433187
+0,0,H&S,0.2,0.48853211009174313
+0,0,H&S,0.3,0.4984044674910251
+0,0,H&S,0.4,0.5235341045073794
+0,0,H&S,0.5,0.5944355803749501
+0,0,H&S,0.6,0.6229557239728759
+0,0,H&S,0.7,0.6784004786597527
+0,0,H&S,0.8,0.7190865576386118
+0,0,H&S,0.9,0.730155564419625
+0,0,H&S,1.0,0.7352413242919824
+0,0,H&S [task-rel],0.1,0.49950139609094535
+0,0,H&S [task-rel],0.2,0.48853211009174313
+0,0,H&S [task-rel],0.3,0.47975668129238136
+0,0,H&S [task-rel],0.4,0.4999002792181891
+0,0,H&S [task-rel],0.5,0.5562425209413642
+0,0,H&S [task-rel],0.6,0.569106501794974
+0,0,H&S [task-rel],0.7,0.6022138013562026
+0,0,H&S [task-rel],0.8,0.6146788990825688
+0,0,H&S [task-rel],0.9,0.6133825289190267
+0,0,H&S [task-rel],1.0,0.6174710809732749
+0,0,SAFE-Embed,0.1,0.46729158356601513
+0,0,SAFE-Embed,0.2,0.44305943358595934
+0,0,SAFE-Embed,0.3,0.4626047068209015
+0,0,SAFE-Embed,0.4,0.4845432788193059
+0,0,SAFE-Embed,0.5,0.5338053450339051
+0,0,SAFE-Embed,0.6,0.5962305544475469
+0,0,SAFE-Embed,0.7,0.6536697247706422
+0,0,SAFE-Embed,0.8,0.6907658556043079
+0,0,SAFE-Embed,0.9,0.7285600319106502
+0,0,SAFE-Embed,1.0,0.7722377343438372
+0,0,SAFE-Embed [task-rel],0.1,0.4359792580773833
+0,0,SAFE-Embed [task-rel],0.2,0.4664938173115277
+0,0,SAFE-Embed [task-rel],0.3,0.5320103709613083
+0,0,SAFE-Embed [task-rel],0.4,0.5561428001595532
+0,0,SAFE-Embed [task-rel],0.5,0.600219385719984
+0,0,SAFE-Embed [task-rel],0.6,0.6533705624252094
+0,0,SAFE-Embed [task-rel],0.7,0.7001396090945353
+0,0,SAFE-Embed [task-rel],0.8,0.7258675708017551
+0,0,SAFE-Embed [task-rel],0.9,0.7468089349820503
+0,0,SAFE-Embed [task-rel],1.0,0.7708416433984843
+0,0,hand:cum_mean_token_entropy,0.1,0.4681890706023135
+0,0,hand:cum_mean_token_entropy,0.2,0.4779617072197846
+0,0,hand:cum_mean_token_entropy,0.3,0.5028919026725169
+0,0,hand:cum_mean_token_entropy,0.4,0.577682489030714
+0,0,hand:cum_mean_token_entropy,0.5,0.5676106900678102
+0,0,hand:cum_mean_token_entropy,0.6,0.5771838851216593
+0,0,hand:cum_mean_token_entropy,0.7,0.5710011966493818
+0,0,hand:cum_mean_token_entropy,0.8,0.5892500997207818
+0,0,hand:cum_mean_token_entropy,0.9,0.58905065815716
+0,0,hand:cum_mean_token_entropy,1.0,0.5839648982848026
+0,0,hand:cum_mean_token_entropy [task-rel],0.1,0.46828879138412444
+0,0,hand:cum_mean_token_entropy [task-rel],0.2,0.45313123254886317
+0,0,hand:cum_mean_token_entropy [task-rel],0.3,0.5182489030714
+0,0,hand:cum_mean_token_entropy [task-rel],0.4,0.5529517351416036
+0,0,hand:cum_mean_token_entropy [task-rel],0.5,0.5605305145592342
+0,0,hand:cum_mean_token_entropy [task-rel],0.6,0.5617271639409653
+0,0,hand:cum_mean_token_entropy [task-rel],0.7,0.5682090147586757
+0,0,hand:cum_mean_token_entropy [task-rel],0.8,0.5659154367770244
+0,0,hand:cum_mean_token_entropy [task-rel],0.9,0.5674112485041882
+0,0,hand:cum_mean_token_entropy [task-rel],1.0,0.5666134822497009
+0,0,hand:mean_token_entropy,0.1,0.4677901874750698
+0,0,hand:mean_token_entropy,0.2,0.45642201834862384
+0,0,hand:mean_token_entropy,0.3,0.4817510969285999
+0,0,hand:mean_token_entropy,0.4,0.5064818508177105
+0,0,hand:mean_token_entropy,0.5,0.5214399680893498
+0,0,hand:mean_token_entropy,0.6,0.5214399680893498
+0,0,hand:mean_token_entropy,0.7,0.5130634224172318
+0,0,hand:mean_token_entropy,0.8,0.5066812923813323
+0,0,hand:mean_token_entropy,0.9,0.5176505783805345
+0,0,hand:mean_token_entropy,1.0,0.5031910650179497
+0,0,hand:mean_token_entropy [task-rel],0.1,0.4871360191463901
+0,0,hand:mean_token_entropy [task-rel],0.2,0.4528320702034304
+0,0,hand:mean_token_entropy [task-rel],0.3,0.5568408456322298
+0,0,hand:mean_token_entropy [task-rel],0.4,0.5624252094136418
+0,0,hand:mean_token_entropy [task-rel],0.5,0.5391902672516953
+0,0,hand:mean_token_entropy [task-rel],0.6,0.5226366174710809
+0,0,hand:mean_token_entropy [task-rel],0.7,0.5059832469086558
+0,0,hand:mean_token_entropy [task-rel],0.8,0.4982050259274033
+0,0,hand:mean_token_entropy [task-rel],0.9,0.5035899481451934
+0,0,hand:mean_token_entropy [task-rel],1.0,0.49770642201834864
+0,0,hand:cum_max_token_entropy,0.1,0.5178500199441564
+0,0,hand:cum_max_token_entropy,0.2,0.5247307538891105
+0,0,hand:cum_max_token_entropy,0.3,0.5265257279617073
+0,0,hand:cum_max_token_entropy,0.4,0.5531511767052254
+0,0,hand:cum_max_token_entropy,0.5,0.54936178699641
+0,0,hand:cum_max_token_entropy,0.6,0.5662145991224571
+0,0,hand:cum_max_token_entropy,0.7,0.5686078978859195
+0,0,hand:cum_max_token_entropy,0.8,0.563621858795373
+0,0,hand:cum_max_token_entropy,0.9,0.5796769046669326
+0,0,hand:cum_max_token_entropy,1.0,0.5755883526126845
+0,0,hand:cum_max_token_entropy [task-rel],0.1,0.5087754287993618
+0,0,hand:cum_max_token_entropy [task-rel],0.2,0.5120662145991225
+0,0,hand:cum_max_token_entropy [task-rel],0.3,0.47576785001994415
+0,0,hand:cum_max_token_entropy [task-rel],0.4,0.46788990825688076
+0,0,hand:cum_max_token_entropy [task-rel],0.5,0.47337455125648187
+0,0,hand:cum_max_token_entropy [task-rel],0.6,0.4698843238930993
+0,0,hand:cum_max_token_entropy [task-rel],0.7,0.4596130833665736
+0,0,hand:cum_max_token_entropy [task-rel],0.8,0.45941364180295174
+0,0,hand:cum_max_token_entropy [task-rel],0.9,0.45951336258476266
+0,0,hand:cum_max_token_entropy [task-rel],1.0,0.45941364180295174
+0,0,hand:cum_mean_token_prob,0.1,0.5526525727961707
+0,0,hand:cum_mean_token_prob,0.2,0.5526525727961707
+0,0,hand:cum_mean_token_prob,0.3,0.5526525727961707
+0,0,hand:cum_mean_token_prob,0.4,0.5526525727961707
+0,0,hand:cum_mean_token_prob,0.5,0.5526525727961707
+0,0,hand:cum_mean_token_prob,0.6,0.5526525727961707
+0,0,hand:cum_mean_token_prob,0.7,0.5526525727961707
+0,0,hand:cum_mean_token_prob,0.8,0.5526525727961707
+0,0,hand:cum_mean_token_prob,0.9,0.5526525727961707
+0,0,hand:cum_mean_token_prob,1.0,0.5526525727961707
+0,0,hand:cum_mean_token_prob [task-rel],0.1,0.525528520143598
+0,0,hand:cum_mean_token_prob [task-rel],0.2,0.46679297965696054
+0,0,hand:cum_mean_token_prob [task-rel],0.3,0.5051854806541684
+0,0,hand:cum_mean_token_prob [task-rel],0.4,0.5363980853609892
+0,0,hand:cum_mean_token_prob [task-rel],0.5,0.5458715596330275
+0,0,hand:cum_mean_token_prob [task-rel],0.6,0.5462704427602713
+0,0,hand:cum_mean_token_prob [task-rel],0.7,0.5440765855604308
+0,0,hand:cum_mean_token_prob [task-rel],0.8,0.5455723972875948
+0,0,hand:cum_mean_token_prob [task-rel],0.9,0.5501595532508975
+0,0,hand:cum_mean_token_prob [task-rel],1.0,0.548065416832868
+0,0,hand:cum_dpos,0.1,0.49137415237335463
+0,0,hand:cum_dpos,0.2,0.49137415237335463
+0,0,hand:cum_dpos,0.3,0.49137415237335463
+0,0,hand:cum_dpos,0.4,0.49137415237335463
+0,0,hand:cum_dpos,0.5,0.49137415237335463
+0,0,hand:cum_dpos,0.6,0.49137415237335463
+0,0,hand:cum_dpos,0.7,0.49137415237335463
+0,0,hand:cum_dpos,0.8,0.49137415237335463
+0,0,hand:cum_dpos,0.9,0.49137415237335463
+0,0,hand:cum_dpos,1.0,0.49137415237335463
+0,0,hand:cum_dpos [task-rel],0.1,0.5516553649780614
+0,0,hand:cum_dpos [task-rel],0.2,0.5349022736338253
+0,0,hand:cum_dpos [task-rel],0.3,0.45841643398484244
+0,0,hand:cum_dpos [task-rel],0.4,0.47038292780215396
+0,0,hand:cum_dpos [task-rel],0.5,0.5172516952532907
+0,0,hand:cum_dpos [task-rel],0.6,0.55364978061428
+0,0,hand:cum_dpos [task-rel],0.7,0.5488631830873554
+0,0,hand:cum_dpos [task-rel],0.8,0.5511567610690068
+0,0,hand:cum_dpos [task-rel],0.9,0.5424810530514559
+0,0,hand:cum_dpos [task-rel],1.0,0.5345033905065816
+0,0,hand:cum_drot,0.1,0.4808037495013961
+0,0,hand:cum_drot,0.2,0.4808037495013961
+0,0,hand:cum_drot,0.3,0.4808037495013961
+0,0,hand:cum_drot,0.4,0.4808037495013961
+0,0,hand:cum_drot,0.5,0.4808037495013961
+0,0,hand:cum_drot,0.6,0.4808037495013961
+0,0,hand:cum_drot,0.7,0.4808037495013961
+0,0,hand:cum_drot,0.8,0.4808037495013961
+0,0,hand:cum_drot,0.9,0.4808037495013961
+0,0,hand:cum_drot,1.0,0.4808037495013961
+0,0,hand:cum_drot [task-rel],0.1,0.5434782608695652
+0,0,hand:cum_drot [task-rel],0.2,0.5361986437973674
+0,0,hand:cum_drot [task-rel],0.3,0.46749102512963703
+0,0,hand:cum_drot [task-rel],0.4,0.4498404467491025
+0,0,hand:cum_drot [task-rel],0.5,0.48115277223773434
+0,0,hand:cum_drot [task-rel],0.6,0.5091743119266054
+0,0,hand:cum_drot [task-rel],0.7,0.5104706820901476
+0,0,hand:cum_drot [task-rel],0.8,0.5162544874351815
+0,0,hand:cum_drot [task-rel],0.9,0.5150578380534503
+0,0,hand:cum_drot [task-rel],1.0,0.5138611886717191
+0,0,hand:dgripper,0.1,0.4954128440366973
+0,0,hand:dgripper,0.2,0.4954128440366973
+0,0,hand:dgripper,0.3,0.5
+0,0,hand:dgripper,0.4,0.5
+0,0,hand:dgripper,0.5,0.5
+0,0,hand:dgripper,0.6,0.5
+0,0,hand:dgripper,0.7,0.5
+0,0,hand:dgripper,0.8,0.5
+0,0,hand:dgripper,0.9,0.5
+0,0,hand:dgripper,1.0,0.5
+0,0,hand:dgripper [task-rel],0.1,0.5266753091344236
+0,0,hand:dgripper [task-rel],0.2,0.5267750299162346
+0,0,hand:dgripper [task-rel],0.3,0.5335560430793778
+0,0,hand:dgripper [task-rel],0.4,0.5340546469884324
+0,0,hand:dgripper [task-rel],0.5,0.5344535301156761
+0,0,hand:dgripper [task-rel],0.6,0.5346529716792979
+0,0,hand:dgripper [task-rel],0.7,0.5346529716792979
+0,0,hand:dgripper [task-rel],0.8,0.5347526924611089
+0,0,hand:dgripper [task-rel],0.9,0.5347526924611089
+0,0,hand:dgripper [task-rel],1.0,0.5347526924611089
+0,1,SAFE-MLP,0.1,0.5912943757479059
+0,1,SAFE-MLP,0.2,0.6070003988831273
+0,1,SAFE-MLP,0.3,0.6106900678101316
+0,1,SAFE-MLP,0.4,0.6125847626645393
+0,1,SAFE-MLP,0.5,0.6324291982449143
+0,1,SAFE-MLP,0.6,0.6579577183885121
+0,1,SAFE-MLP,0.7,0.6979457518946949
+0,1,SAFE-MLP,0.8,0.7319505384922218
+0,1,SAFE-MLP,0.9,0.7546868767451137
+0,1,SAFE-MLP,1.0,0.7843039489429597
+0,1,SAFE-MLP [task-rel],0.1,0.44664938173115276
+0,1,SAFE-MLP [task-rel],0.2,0.45063821300358997
+0,1,SAFE-MLP [task-rel],0.3,0.4416633426406063
+0,1,SAFE-MLP [task-rel],0.4,0.42919824491424013
+0,1,SAFE-MLP [task-rel],0.5,0.4444555245313123
+0,1,SAFE-MLP [task-rel],0.6,0.45602313522138016
+0,1,SAFE-MLP [task-rel],0.7,0.4711806940566414
+0,1,SAFE-MLP [task-rel],0.8,0.4908256880733945
+0,1,SAFE-MLP [task-rel],0.9,0.49670921420023934
+0,1,SAFE-MLP [task-rel],1.0,0.5062824092540885
+0,1,H&S,0.1,0.5454726765057838
+0,1,H&S,0.2,0.48524132429198247
+0,1,H&S,0.3,0.4824491424012764
+0,1,H&S,0.4,0.5144595133625848
+0,1,H&S,0.5,0.5506581571599521
+0,1,H&S,0.6,0.5907459114479457
+0,1,H&S,0.7,0.6283406461906661
+0,1,H&S,0.8,0.6501794974072597
+0,1,H&S,0.9,0.6489828480255285
+0,1,H&S,1.0,0.6685281212604707
+0,1,H&S [task-rel],0.1,0.5398883127243718
+0,1,H&S [task-rel],0.2,0.48404467491025127
+0,1,H&S [task-rel],0.3,0.47586757080175507
+0,1,H&S [task-rel],0.4,0.4935181491822896
+0,1,H&S [task-rel],0.5,0.5226366174710809
+0,1,H&S [task-rel],0.6,0.5616274431591544
+0,1,H&S [task-rel],0.7,0.5985241324291982
+0,1,H&S [task-rel],0.8,0.6097925807738332
+0,1,H&S [task-rel],0.9,0.6015157558835261
+0,1,H&S [task-rel],1.0,0.6177702433187077
+0,1,SAFE-Embed,0.1,0.45941364180295174
+0,1,SAFE-Embed,0.2,0.40556441962504985
+0,1,SAFE-Embed,0.3,0.4405664140406861
+0,1,SAFE-Embed,0.4,0.46888711607499
+0,1,SAFE-Embed,0.5,0.5317112086158755
+0,1,SAFE-Embed,0.6,0.5971280414838452
+0,1,SAFE-Embed,0.7,0.6585560430793778
+0,1,SAFE-Embed,0.8,0.6907658556043079
+0,1,SAFE-Embed,0.9,0.7278619864379737
+0,1,SAFE-Embed,1.0,0.7680494615077782
+0,1,SAFE-Embed [task-rel],0.1,0.4004786597526925
+0,1,SAFE-Embed [task-rel],0.2,0.4268049461507778
+0,1,SAFE-Embed [task-rel],0.3,0.5665137614678899
+0,1,SAFE-Embed [task-rel],0.4,0.5883526126844835
+0,1,SAFE-Embed [task-rel],0.5,0.6378141204627045
+0,1,SAFE-Embed [task-rel],0.6,0.6852812126047069
+0,1,SAFE-Embed [task-rel],0.7,0.7222776226565616
+0,1,SAFE-Embed [task-rel],0.8,0.7402273633825289
+0,1,SAFE-Embed [task-rel],0.9,0.7573793378540088
+0,1,SAFE-Embed [task-rel],1.0,0.7815117670522537
+0,1,hand:cum_mean_token_entropy,0.1,0.4681890706023135
+0,1,hand:cum_mean_token_entropy,0.2,0.4779617072197846
+0,1,hand:cum_mean_token_entropy,0.3,0.5028919026725169
+0,1,hand:cum_mean_token_entropy,0.4,0.577682489030714
+0,1,hand:cum_mean_token_entropy,0.5,0.5676106900678102
+0,1,hand:cum_mean_token_entropy,0.6,0.5771838851216593
+0,1,hand:cum_mean_token_entropy,0.7,0.5710011966493818
+0,1,hand:cum_mean_token_entropy,0.8,0.5892500997207818
+0,1,hand:cum_mean_token_entropy,0.9,0.58905065815716
+0,1,hand:cum_mean_token_entropy,1.0,0.5839648982848026
+0,1,hand:cum_mean_token_entropy [task-rel],0.1,0.46828879138412444
+0,1,hand:cum_mean_token_entropy [task-rel],0.2,0.45313123254886317
+0,1,hand:cum_mean_token_entropy [task-rel],0.3,0.5182489030714
+0,1,hand:cum_mean_token_entropy [task-rel],0.4,0.5529517351416036
+0,1,hand:cum_mean_token_entropy [task-rel],0.5,0.5605305145592342
+0,1,hand:cum_mean_token_entropy [task-rel],0.6,0.5617271639409653
+0,1,hand:cum_mean_token_entropy [task-rel],0.7,0.5682090147586757
+0,1,hand:cum_mean_token_entropy [task-rel],0.8,0.5659154367770244
+0,1,hand:cum_mean_token_entropy [task-rel],0.9,0.5674112485041882
+0,1,hand:cum_mean_token_entropy [task-rel],1.0,0.5666134822497009
+0,1,hand:mean_token_entropy,0.1,0.5450737933785401
+0,1,hand:mean_token_entropy,0.2,0.5099720781810929
+0,1,hand:mean_token_entropy,0.3,0.5164539289988034
+0,1,hand:mean_token_entropy,0.4,0.4715795771838851
+0,1,hand:mean_token_entropy,0.5,0.45941364180295174
+0,1,hand:mean_token_entropy,0.6,0.46051057040287197
+0,1,hand:mean_token_entropy,0.7,0.42211806940566415
+0,1,hand:mean_token_entropy,0.8,0.4313921021140806
+0,1,hand:mean_token_entropy,0.9,0.4182289589150379
+0,1,hand:mean_token_entropy,1.0,0.4094535301156761
+0,1,hand:mean_token_entropy [task-rel],0.1,0.5286198643797367
+0,1,hand:mean_token_entropy [task-rel],0.2,0.49331870761866775
+0,1,hand:mean_token_entropy [task-rel],0.3,0.4946150777822098
+0,1,hand:mean_token_entropy [task-rel],0.4,0.4843438372556841
+0,1,hand:mean_token_entropy [task-rel],0.5,0.4834463502193857
+0,1,hand:mean_token_entropy [task-rel],0.6,0.4855404866374152
+0,1,hand:mean_token_entropy [task-rel],0.7,0.4771639409652972
+0,1,hand:mean_token_entropy [task-rel],0.8,0.48045472676505785
+0,1,hand:mean_token_entropy [task-rel],0.9,0.48055444754686877
+0,1,hand:mean_token_entropy [task-rel],1.0,0.4762664539289988
+0,1,hand:cum_max_token_entropy,0.1,0.5178500199441564
+0,1,hand:cum_max_token_entropy,0.2,0.5247307538891105
+0,1,hand:cum_max_token_entropy,0.3,0.5265257279617073
+0,1,hand:cum_max_token_entropy,0.4,0.5531511767052254
+0,1,hand:cum_max_token_entropy,0.5,0.54936178699641
+0,1,hand:cum_max_token_entropy,0.6,0.5662145991224571
+0,1,hand:cum_max_token_entropy,0.7,0.5686078978859195
+0,1,hand:cum_max_token_entropy,0.8,0.563621858795373
+0,1,hand:cum_max_token_entropy,0.9,0.5796769046669326
+0,1,hand:cum_max_token_entropy,1.0,0.5755883526126845
+0,1,hand:cum_max_token_entropy [task-rel],0.1,0.5087754287993618
+0,1,hand:cum_max_token_entropy [task-rel],0.2,0.5120662145991225
+0,1,hand:cum_max_token_entropy [task-rel],0.3,0.47576785001994415
+0,1,hand:cum_max_token_entropy [task-rel],0.4,0.46788990825688076
+0,1,hand:cum_max_token_entropy [task-rel],0.5,0.47337455125648187
+0,1,hand:cum_max_token_entropy [task-rel],0.6,0.4698843238930993
+0,1,hand:cum_max_token_entropy [task-rel],0.7,0.4596130833665736
+0,1,hand:cum_max_token_entropy [task-rel],0.8,0.45941364180295174
+0,1,hand:cum_max_token_entropy [task-rel],0.9,0.45951336258476266
+0,1,hand:cum_max_token_entropy [task-rel],1.0,0.45941364180295174
+0,1,hand:cum_mean_token_prob,0.1,0.5526525727961707
+0,1,hand:cum_mean_token_prob,0.2,0.5526525727961707
+0,1,hand:cum_mean_token_prob,0.3,0.5526525727961707
+0,1,hand:cum_mean_token_prob,0.4,0.5526525727961707
+0,1,hand:cum_mean_token_prob,0.5,0.5526525727961707
+0,1,hand:cum_mean_token_prob,0.6,0.5526525727961707
+0,1,hand:cum_mean_token_prob,0.7,0.5526525727961707
+0,1,hand:cum_mean_token_prob,0.8,0.5526525727961707
+0,1,hand:cum_mean_token_prob,0.9,0.5526525727961707
+0,1,hand:cum_mean_token_prob,1.0,0.5526525727961707
+0,1,hand:cum_mean_token_prob [task-rel],0.1,0.525528520143598
+0,1,hand:cum_mean_token_prob [task-rel],0.2,0.46679297965696054
+0,1,hand:cum_mean_token_prob [task-rel],0.3,0.5051854806541684
+0,1,hand:cum_mean_token_prob [task-rel],0.4,0.5363980853609892
+0,1,hand:cum_mean_token_prob [task-rel],0.5,0.5458715596330275
+0,1,hand:cum_mean_token_prob [task-rel],0.6,0.5462704427602713
+0,1,hand:cum_mean_token_prob [task-rel],0.7,0.5440765855604308
+0,1,hand:cum_mean_token_prob [task-rel],0.8,0.5455723972875948
+0,1,hand:cum_mean_token_prob [task-rel],0.9,0.5501595532508975
+0,1,hand:cum_mean_token_prob [task-rel],1.0,0.548065416832868
+0,1,hand:cum_dpos,0.1,0.49137415237335463
+0,1,hand:cum_dpos,0.2,0.49137415237335463
+0,1,hand:cum_dpos,0.3,0.49137415237335463
+0,1,hand:cum_dpos,0.4,0.49137415237335463
+0,1,hand:cum_dpos,0.5,0.49137415237335463
+0,1,hand:cum_dpos,0.6,0.49137415237335463
+0,1,hand:cum_dpos,0.7,0.49137415237335463
+0,1,hand:cum_dpos,0.8,0.49137415237335463
+0,1,hand:cum_dpos,0.9,0.49137415237335463
+0,1,hand:cum_dpos,1.0,0.49137415237335463
+0,1,hand:cum_dpos [task-rel],0.1,0.5516553649780614
+0,1,hand:cum_dpos [task-rel],0.2,0.5349022736338253
+0,1,hand:cum_dpos [task-rel],0.3,0.45841643398484244
+0,1,hand:cum_dpos [task-rel],0.4,0.47038292780215396
+0,1,hand:cum_dpos [task-rel],0.5,0.5172516952532907
+0,1,hand:cum_dpos [task-rel],0.6,0.55364978061428
+0,1,hand:cum_dpos [task-rel],0.7,0.5488631830873554
+0,1,hand:cum_dpos [task-rel],0.8,0.5511567610690068
+0,1,hand:cum_dpos [task-rel],0.9,0.5424810530514559
+0,1,hand:cum_dpos [task-rel],1.0,0.5345033905065816
+0,1,hand:cum_drot,0.1,0.509872357399282
+0,1,hand:cum_drot,0.2,0.5488631830873554
+0,1,hand:cum_drot,0.3,0.5853609892301556
+0,1,hand:cum_drot,0.4,0.6168727562824092
+0,1,hand:cum_drot,0.5,0.5981252493019545
+0,1,hand:cum_drot,0.6,0.5857598723573992
+0,1,hand:cum_drot,0.7,0.5820702034303948
+0,1,hand:cum_drot,0.8,0.5802752293577982
+0,1,hand:cum_drot,0.9,0.5997207818109294
+0,1,hand:cum_drot,1.0,0.5997207818109294
+0,1,hand:cum_drot [task-rel],0.1,0.5612285600319107
+0,1,hand:cum_drot [task-rel],0.2,0.5220382927802154
+0,1,hand:cum_drot [task-rel],0.3,0.5827682489030714
+0,1,hand:cum_drot [task-rel],0.4,0.5837654567211807
+0,1,hand:cum_drot [task-rel],0.5,0.5831671320303151
+0,1,hand:cum_drot [task-rel],0.6,0.5784802552852014
+0,1,hand:cum_drot [task-rel],0.7,0.5561428001595532
+0,1,hand:cum_drot [task-rel],0.8,0.5605305145592342
+0,1,hand:cum_drot [task-rel],0.9,0.5616274431591544
+0,1,hand:cum_drot [task-rel],1.0,0.5611288392500997
+0,1,hand:dgripper,0.1,0.5185480654168328
+0,1,hand:dgripper,0.2,0.5277223773434384
+0,1,hand:dgripper,0.3,0.5051356202632629
+0,1,hand:dgripper,0.4,0.41040087754287996
+0,1,hand:dgripper,0.5,0.3937973673713602
+0,1,hand:dgripper,0.6,0.4546270442760271
+0,1,hand:dgripper,0.7,0.47043278819305945
+0,1,hand:dgripper,0.8,0.47706422018348627
+0,1,hand:dgripper,0.9,0.4908256880733945
+0,1,hand:dgripper,1.0,0.4908256880733945
+0,1,hand:dgripper [task-rel],0.1,0.5103211009174312
+0,1,hand:dgripper [task-rel],0.2,0.5230853609892302
+0,1,hand:dgripper [task-rel],0.3,0.4964100518548065
+0,1,hand:dgripper [task-rel],0.4,0.39384722776226566
+0,1,hand:dgripper [task-rel],0.5,0.3647287594734743
+0,1,hand:dgripper [task-rel],0.6,0.43353609892301553
+0,1,hand:dgripper [task-rel],0.7,0.45372955723972874
+0,1,hand:dgripper [task-rel],0.8,0.45976266453929
+0,1,hand:dgripper [task-rel],0.9,0.47945751894694855
+0,1,hand:dgripper [task-rel],1.0,0.47960710011966495
+1,0,SAFE-MLP,0.1,0.5119445771619685
+1,0,SAFE-MLP,0.2,0.5118251313903488
+1,0,SAFE-MLP,0.3,0.5440754897276636
+1,0,SAFE-MLP,0.4,0.5518394648829431
+1,0,SAFE-MLP,0.5,0.581820353559484
+1,0,SAFE-MLP,0.6,0.6244624940277114
+1,0,SAFE-MLP,0.7,0.6643573817486861
+1,0,SAFE-MLP,0.8,0.6886048733874821
+1,0,SAFE-MLP,0.9,0.7046106067845198
+1,0,SAFE-MLP,1.0,0.714763497372193
+1,0,SAFE-MLP [task-rel],0.1,0.4992833253702819
+1,0,SAFE-MLP [task-rel],0.2,0.5193502150023889
+1,0,SAFE-MLP [task-rel],0.3,0.5096751075011945
+1,0,SAFE-MLP [task-rel],0.4,0.5086000955566173
+1,0,SAFE-MLP [task-rel],0.5,0.5271141901576685
+1,0,SAFE-MLP [task-rel],0.6,0.5234113712374582
+1,0,SAFE-MLP [task-rel],0.7,0.5541089345437171
+1,0,SAFE-MLP [task-rel],0.8,0.5733397037744864
+1,0,SAFE-MLP [task-rel],0.9,0.5944816053511706
+1,0,SAFE-MLP [task-rel],1.0,0.6002150023889155
+1,0,H&S,0.1,0.38330148112756807
+1,0,H&S,0.2,0.4056378404204491
+1,0,H&S,0.3,0.4368131868131868
+1,0,H&S,0.4,0.4930721452460583
+1,0,H&S,0.5,0.55303392259914
+1,0,H&S,0.6,0.5612756808408982
+1,0,H&S,0.7,0.6021261347348303
+1,0,H&S,0.8,0.6293597706641185
+1,0,H&S,0.9,0.6519350215002389
+1,0,H&S,1.0,0.668179646440516
+1,0,H&S [task-rel],0.1,0.4485188724319159
+1,0,H&S [task-rel],0.2,0.3914237935977066
+1,0,H&S [task-rel],0.3,0.41997133301481127
+1,0,H&S [task-rel],0.4,0.48721930243669376
+1,0,H&S [task-rel],0.5,0.5476588628762542
+1,0,H&S [task-rel],0.6,0.5422838031533683
+1,0,H&S [task-rel],0.7,0.5803870043000477
+1,0,H&S [task-rel],0.8,0.5863592928810321
+1,0,H&S [task-rel],0.9,0.6078595317725752
+1,0,H&S [task-rel],1.0,0.615145723841376
+1,0,SAFE-Embed,0.1,0.5800286669851887
+1,0,SAFE-Embed,0.2,0.45819397993311034
+1,0,SAFE-Embed,0.3,0.42044911610129
+1,0,SAFE-Embed,0.4,0.43514094601051123
+1,0,SAFE-Embed,0.5,0.46392737697085523
+1,0,SAFE-Embed,0.6,0.5121834687052078
+1,0,SAFE-Embed,0.7,0.5500477783086479
+1,0,SAFE-Embed,0.8,0.5742952699474438
+1,0,SAFE-Embed,0.9,0.6143096034400383
+1,0,SAFE-Embed,1.0,0.6573100812231247
+1,0,SAFE-Embed [task-rel],0.1,0.3528428093645485
+1,0,SAFE-Embed [task-rel],0.2,0.35105112279025324
+1,0,SAFE-Embed [task-rel],0.3,0.38067367415193504
+1,0,SAFE-Embed [task-rel],0.4,0.42259913999044435
+1,0,SAFE-Embed [task-rel],0.5,0.45532728141423795
+1,0,SAFE-Embed [task-rel],0.6,0.49426660296225516
+1,0,SAFE-Embed [task-rel],0.7,0.5327281414237935
+1,0,SAFE-Embed [task-rel],0.8,0.557572861920688
+1,0,SAFE-Embed [task-rel],0.9,0.5863592928810321
+1,0,SAFE-Embed [task-rel],1.0,0.608337314859054
+1,0,hand:cum_mean_token_entropy,0.1,0.37661251791686573
+1,0,hand:cum_mean_token_entropy,0.2,0.4039655996177735
+1,0,hand:cum_mean_token_entropy,0.3,0.4039655996177735
+1,0,hand:cum_mean_token_entropy,0.4,0.4677496416626851
+1,0,hand:cum_mean_token_entropy,0.5,0.47551361681796467
+1,0,hand:cum_mean_token_entropy,0.6,0.4952221691352126
+1,0,hand:cum_mean_token_entropy,0.7,0.4878165312947922
+1,0,hand:cum_mean_token_entropy,0.8,0.5114667940754897
+1,0,hand:cum_mean_token_entropy,0.9,0.5106306736741519
+1,0,hand:cum_mean_token_entropy,1.0,0.5520783564261825
+1,0,hand:cum_mean_token_entropy [task-rel],0.1,0.39751552795031053
+1,0,hand:cum_mean_token_entropy [task-rel],0.2,0.41782130912565696
+1,0,hand:cum_mean_token_entropy [task-rel],0.3,0.45568561872909696
+1,0,hand:cum_mean_token_entropy [task-rel],0.4,0.4998805542283803
+1,0,hand:cum_mean_token_entropy [task-rel],0.5,0.5115862398471094
+1,0,hand:cum_mean_token_entropy [task-rel],0.6,0.5263975155279503
+1,0,hand:cum_mean_token_entropy [task-rel],0.7,0.5366698518872431
+1,0,hand:cum_mean_token_entropy [task-rel],0.8,0.5404921165790731
+1,0,hand:cum_mean_token_entropy [task-rel],0.9,0.5412087912087912
+1,0,hand:cum_mean_token_entropy [task-rel],1.0,0.5418060200668896
+1,0,hand:mean_token_entropy,0.1,0.3489010989010989
+1,0,hand:mean_token_entropy,0.2,0.35248447204968947
+1,0,hand:mean_token_entropy,0.3,0.34316770186335405
+1,0,hand:mean_token_entropy,0.4,0.3730291447682752
+1,0,hand:mean_token_entropy,0.5,0.38115145723841376
+1,0,hand:mean_token_entropy,0.6,0.38282369804108934
+1,0,hand:mean_token_entropy,0.7,0.3917821309125657
+1,0,hand:mean_token_entropy,0.8,0.387123745819398
+1,0,hand:mean_token_entropy,0.9,0.38819875776397517
+1,0,hand:mean_token_entropy,1.0,0.3843764930721452
+1,0,hand:mean_token_entropy [task-rel],0.1,0.41328236980410893
+1,0,hand:mean_token_entropy [task-rel],0.2,0.3575011944577162
+1,0,hand:mean_token_entropy [task-rel],0.3,0.3922599139990444
+1,0,hand:mean_token_entropy [task-rel],0.4,0.4323936932632585
+1,0,hand:mean_token_entropy [task-rel],0.5,0.411371237458194
+1,0,hand:mean_token_entropy [task-rel],0.6,0.41555183946488294
+1,0,hand:mean_token_entropy [task-rel],0.7,0.3944099378881988
+1,0,hand:mean_token_entropy [task-rel],0.8,0.40289058767319635
+1,0,hand:mean_token_entropy [task-rel],0.9,0.40157668418537984
+1,0,hand:mean_token_entropy [task-rel],1.0,0.407190635451505
+1,0,hand:cum_max_token_entropy,0.1,0.4276158623984711
+1,0,hand:cum_max_token_entropy,0.2,0.5216196846631629
+1,0,hand:cum_max_token_entropy,0.3,0.5181557572861921
+1,0,hand:cum_max_token_entropy,0.4,0.5366698518872431
+1,0,hand:cum_max_token_entropy,0.5,0.5581700907787864
+1,0,hand:cum_max_token_entropy,0.6,0.5705924510272337
+1,0,hand:cum_max_token_entropy,0.7,0.581820353559484
+1,0,hand:cum_max_token_entropy,0.8,0.5877926421404682
+1,0,hand:cum_max_token_entropy,0.9,0.5914954610606784
+1,0,hand:cum_max_token_entropy,1.0,0.59089823220258
+1,0,hand:cum_max_token_entropy [task-rel],0.1,0.4611801242236025
+1,0,hand:cum_max_token_entropy [task-rel],0.2,0.47085523172479693
+1,0,hand:cum_max_token_entropy [task-rel],0.3,0.5266364070711896
+1,0,hand:cum_max_token_entropy [task-rel],0.4,0.5316531294792164
+1,0,hand:cum_max_token_entropy [task-rel],0.5,0.5289058767319637
+1,0,hand:cum_max_token_entropy [task-rel],0.6,0.5254419493549929
+1,0,hand:cum_max_token_entropy [task-rel],0.7,0.5260391782130912
+1,0,hand:cum_max_token_entropy [task-rel],0.8,0.5271141901576685
+1,0,hand:cum_max_token_entropy [task-rel],0.9,0.5346392737697085
+1,0,hand:cum_max_token_entropy [task-rel],1.0,0.5381032011466794
+1,0,hand:cum_mean_token_prob,0.1,0.4267797419971333
+1,0,hand:cum_mean_token_prob,0.2,0.4267797419971333
+1,0,hand:cum_mean_token_prob,0.3,0.4267797419971333
+1,0,hand:cum_mean_token_prob,0.4,0.4267797419971333
+1,0,hand:cum_mean_token_prob,0.5,0.4267797419971333
+1,0,hand:cum_mean_token_prob,0.6,0.4267797419971333
+1,0,hand:cum_mean_token_prob,0.7,0.4267797419971333
+1,0,hand:cum_mean_token_prob,0.8,0.4267797419971333
+1,0,hand:cum_mean_token_prob,0.9,0.4267797419971333
+1,0,hand:cum_mean_token_prob,1.0,0.4267797419971333
+1,0,hand:cum_mean_token_prob [task-rel],0.1,0.46691352126134733
+1,0,hand:cum_mean_token_prob [task-rel],0.2,0.45090778786430963
+1,0,hand:cum_mean_token_prob [task-rel],0.3,0.4392021022455805
+1,0,hand:cum_mean_token_prob [task-rel],0.4,0.4658385093167702
+1,0,hand:cum_mean_token_prob [task-rel],0.5,0.49581939799331104
+1,0,hand:cum_mean_token_prob [task-rel],0.6,0.4992833253702819
+1,0,hand:cum_mean_token_prob [task-rel],0.7,0.4986860965121835
+1,0,hand:cum_mean_token_prob [task-rel],0.8,0.5015527950310559
+1,0,hand:cum_mean_token_prob [task-rel],0.9,0.5076445293836598
+1,0,hand:cum_mean_token_prob [task-rel],1.0,0.5047778308647873
+1,0,hand:cum_dpos,0.1,0.4228380315336837
+1,0,hand:cum_dpos,0.2,0.4690635451505017
+1,0,hand:cum_dpos,0.3,0.4750358337314859
+1,0,hand:cum_dpos,0.4,0.4626134734830387
+1,0,hand:cum_dpos,0.5,0.4335881509794553
+1,0,hand:cum_dpos,0.6,0.40539894887720973
+1,0,hand:cum_dpos,0.7,0.4042044911610129
+1,0,hand:cum_dpos,0.8,0.400382226469183
+1,0,hand:cum_dpos,0.9,0.37577639751552794
+1,0,hand:cum_dpos,1.0,0.3792403248924988
+1,0,hand:cum_dpos [task-rel],0.1,0.433707596751075
+1,0,hand:cum_dpos [task-rel],0.2,0.42857142857142855
+1,0,hand:cum_dpos [task-rel],0.3,0.4523411371237458
+1,0,hand:cum_dpos [task-rel],0.4,0.47706641184902054
+1,0,hand:cum_dpos [task-rel],0.5,0.5025083612040134
+1,0,hand:cum_dpos [task-rel],0.6,0.5262780697563306
+1,0,hand:cum_dpos [task-rel],0.7,0.5222169135212613
+1,0,hand:cum_dpos [task-rel],0.8,0.5274725274725275
+1,0,hand:cum_dpos [task-rel],0.9,0.5250836120401338
+1,0,hand:cum_dpos [task-rel],1.0,0.5258002866698519
+1,0,hand:cum_drot,0.1,0.43788819875776397
+1,0,hand:cum_drot,0.2,0.47611084567606304
+1,0,hand:cum_drot,0.3,0.4741997133301481
+1,0,hand:cum_drot,0.4,0.4819636884854276
+1,0,hand:cum_drot,0.5,0.48638318203535597
+1,0,hand:cum_drot,0.6,0.4866220735785953
+1,0,hand:cum_drot,0.7,0.4973721930243669
+1,0,hand:cum_drot,0.8,0.5011944577161969
+1,0,hand:cum_drot,0.9,0.4973721930243669
+1,0,hand:cum_drot,1.0,0.49713330148112755
+1,0,hand:cum_drot [task-rel],0.1,0.5280697563306259
+1,0,hand:cum_drot [task-rel],0.2,0.4319159101767797
+1,0,hand:cum_drot [task-rel],0.3,0.47001911132345914
+1,0,hand:cum_drot [task-rel],0.4,0.49880554228380314
+1,0,hand:cum_drot [task-rel],0.5,0.542044911610129
+1,0,hand:cum_drot [task-rel],0.6,0.5697563306258958
+1,0,hand:cum_drot [task-rel],0.7,0.5587673196368849
+1,0,hand:cum_drot [task-rel],0.8,0.5674868609651218
+1,0,hand:cum_drot [task-rel],0.9,0.5699952221691352
+1,0,hand:cum_drot [task-rel],1.0,0.575011944577162
+1,0,hand:dgripper,0.1,0.5
+1,0,hand:dgripper,0.2,0.5
+1,0,hand:dgripper,0.3,0.5
+1,0,hand:dgripper,0.4,0.5
+1,0,hand:dgripper,0.5,0.5
+1,0,hand:dgripper,0.6,0.5
+1,0,hand:dgripper,0.7,0.5
+1,0,hand:dgripper,0.8,0.5
+1,0,hand:dgripper,0.9,0.5
+1,0,hand:dgripper,1.0,0.5
+1,0,hand:dgripper [task-rel],0.1,0.5060320114667941
+1,0,hand:dgripper [task-rel],0.2,0.5061514572384138
+1,0,hand:dgripper [task-rel],0.3,0.5071070234113713
+1,0,hand:dgripper [task-rel],0.4,0.50758480649785
+1,0,hand:dgripper [task-rel],0.5,0.5078236980410894
+1,0,hand:dgripper [task-rel],0.6,0.507943143812709
+1,0,hand:dgripper [task-rel],0.7,0.507943143812709
+1,0,hand:dgripper [task-rel],0.8,0.507943143812709
+1,0,hand:dgripper [task-rel],0.9,0.5080625895843287
+1,0,hand:dgripper [task-rel],1.0,0.5080625895843287
+1,1,SAFE-MLP,0.1,0.5252030578117535
+1,1,SAFE-MLP,0.2,0.533325370281892
+1,1,SAFE-MLP,0.3,0.5511227902532251
+1,1,SAFE-MLP,0.4,0.560200668896321
+1,1,SAFE-MLP,0.5,0.5833731485905399
+1,1,SAFE-MLP,0.6,0.6184902054467272
+1,1,SAFE-MLP,0.7,0.6618490205446728
+1,1,SAFE-MLP,0.8,0.6877687529861443
+1,1,SAFE-MLP,0.9,0.7048494983277592
+1,1,SAFE-MLP,1.0,0.7145246058289536
+1,1,SAFE-MLP [task-rel],0.1,0.38855709507883424
+1,1,SAFE-MLP [task-rel],0.2,0.3932154801720019
+1,1,SAFE-MLP [task-rel],0.3,0.4423076923076923
+1,1,SAFE-MLP [task-rel],0.4,0.47527472527472525
+1,1,SAFE-MLP [task-rel],0.5,0.5115862398471094
+1,1,SAFE-MLP [task-rel],0.6,0.5492116579073101
+1,1,SAFE-MLP [task-rel],0.7,0.5720258002866698
+1,1,SAFE-MLP [task-rel],0.8,0.5834925943621596
+1,1,SAFE-MLP [task-rel],0.9,0.5936454849498328
+1,1,SAFE-MLP [task-rel],1.0,0.5971094123268036
+1,1,H&S,0.1,0.4657190635451505
+1,1,H&S,0.2,0.44135212613473485
+1,1,H&S,0.3,0.42821309125656953
+1,1,H&S,0.4,0.43024366937410413
+1,1,H&S,0.5,0.524605828953655
+1,1,H&S,0.6,0.5482560917343526
+1,1,H&S,0.7,0.5494505494505495
+1,1,H&S,0.8,0.5725035833731486
+1,1,H&S,0.9,0.6004538939321548
+1,1,H&S,1.0,0.6266125179168658
+1,1,H&S [task-rel],0.1,0.4358576206402293
+1,1,H&S [task-rel],0.2,0.43824653607262304
+1,1,H&S [task-rel],0.3,0.4259436215957955
+1,1,H&S [task-rel],0.4,0.43573817486860966
+1,1,H&S [task-rel],0.5,0.5261586239847109
+1,1,H&S [task-rel],0.6,0.5402532250358337
+1,1,H&S [task-rel],0.7,0.5346392737697085
+1,1,H&S [task-rel],0.8,0.5514811275680841
+1,1,H&S [task-rel],0.9,0.5699952221691352
+1,1,H&S [task-rel],1.0,0.590181557572862
+1,1,SAFE-Embed,0.1,0.5987816531294792
+1,1,SAFE-Embed,0.2,0.4399187768752986
+1,1,SAFE-Embed,0.3,0.41686574295269946
+1,1,SAFE-Embed,0.4,0.429168657429527
+1,1,SAFE-Embed,0.5,0.46129956999522215
+1,1,SAFE-Embed,0.6,0.5066889632107023
+1,1,SAFE-Embed,0.7,0.5391782130912566
+1,1,SAFE-Embed,0.8,0.5661729574773053
+1,1,SAFE-Embed,0.9,0.5997372193024367
+1,1,SAFE-Embed,1.0,0.6372431915910177
+1,1,SAFE-Embed [task-rel],0.1,0.3494983277591973
+1,1,SAFE-Embed [task-rel],0.2,0.3468705207835643
+1,1,SAFE-Embed [task-rel],0.3,0.39202102245580506
+1,1,SAFE-Embed [task-rel],0.4,0.4245102723363593
+1,1,SAFE-Embed [task-rel],0.5,0.45652173913043476
+1,1,SAFE-Embed [task-rel],0.6,0.49426660296225516
+1,1,SAFE-Embed [task-rel],0.7,0.5303392259913999
+1,1,SAFE-Embed [task-rel],0.8,0.5494505494505495
+1,1,SAFE-Embed [task-rel],0.9,0.5747730530339226
+1,1,SAFE-Embed [task-rel],1.0,0.5870759675107501
+1,1,hand:cum_mean_token_entropy,0.1,0.37661251791686573
+1,1,hand:cum_mean_token_entropy,0.2,0.4039655996177735
+1,1,hand:cum_mean_token_entropy,0.3,0.4039655996177735
+1,1,hand:cum_mean_token_entropy,0.4,0.4677496416626851
+1,1,hand:cum_mean_token_entropy,0.5,0.47551361681796467
+1,1,hand:cum_mean_token_entropy,0.6,0.4952221691352126
+1,1,hand:cum_mean_token_entropy,0.7,0.4878165312947922
+1,1,hand:cum_mean_token_entropy,0.8,0.5114667940754897
+1,1,hand:cum_mean_token_entropy,0.9,0.5106306736741519
+1,1,hand:cum_mean_token_entropy,1.0,0.5520783564261825
+1,1,hand:cum_mean_token_entropy [task-rel],0.1,0.39751552795031053
+1,1,hand:cum_mean_token_entropy [task-rel],0.2,0.41782130912565696
+1,1,hand:cum_mean_token_entropy [task-rel],0.3,0.45568561872909696
+1,1,hand:cum_mean_token_entropy [task-rel],0.4,0.4998805542283803
+1,1,hand:cum_mean_token_entropy [task-rel],0.5,0.5115862398471094
+1,1,hand:cum_mean_token_entropy [task-rel],0.6,0.5263975155279503
+1,1,hand:cum_mean_token_entropy [task-rel],0.7,0.5366698518872431
+1,1,hand:cum_mean_token_entropy [task-rel],0.8,0.5404921165790731
+1,1,hand:cum_mean_token_entropy [task-rel],0.9,0.5412087912087912
+1,1,hand:cum_mean_token_entropy [task-rel],1.0,0.5418060200668896
+1,1,hand:mean_token_entropy,0.1,0.3489010989010989
+1,1,hand:mean_token_entropy,0.2,0.35248447204968947
+1,1,hand:mean_token_entropy,0.3,0.34316770186335405
+1,1,hand:mean_token_entropy,0.4,0.3730291447682752
+1,1,hand:mean_token_entropy,0.5,0.38115145723841376
+1,1,hand:mean_token_entropy,0.6,0.38282369804108934
+1,1,hand:mean_token_entropy,0.7,0.3917821309125657
+1,1,hand:mean_token_entropy,0.8,0.387123745819398
+1,1,hand:mean_token_entropy,0.9,0.38819875776397517
+1,1,hand:mean_token_entropy,1.0,0.3843764930721452
+1,1,hand:mean_token_entropy [task-rel],0.1,0.41328236980410893
+1,1,hand:mean_token_entropy [task-rel],0.2,0.3575011944577162
+1,1,hand:mean_token_entropy [task-rel],0.3,0.3922599139990444
+1,1,hand:mean_token_entropy [task-rel],0.4,0.4323936932632585
+1,1,hand:mean_token_entropy [task-rel],0.5,0.411371237458194
+1,1,hand:mean_token_entropy [task-rel],0.6,0.41555183946488294
+1,1,hand:mean_token_entropy [task-rel],0.7,0.3944099378881988
+1,1,hand:mean_token_entropy [task-rel],0.8,0.40289058767319635
+1,1,hand:mean_token_entropy [task-rel],0.9,0.40157668418537984
+1,1,hand:mean_token_entropy [task-rel],1.0,0.407190635451505
+1,1,hand:cum_max_token_entropy,0.1,0.4276158623984711
+1,1,hand:cum_max_token_entropy,0.2,0.5216196846631629
+1,1,hand:cum_max_token_entropy,0.3,0.5181557572861921
+1,1,hand:cum_max_token_entropy,0.4,0.5366698518872431
+1,1,hand:cum_max_token_entropy,0.5,0.5581700907787864
+1,1,hand:cum_max_token_entropy,0.6,0.5705924510272337
+1,1,hand:cum_max_token_entropy,0.7,0.581820353559484
+1,1,hand:cum_max_token_entropy,0.8,0.5877926421404682
+1,1,hand:cum_max_token_entropy,0.9,0.5914954610606784
+1,1,hand:cum_max_token_entropy,1.0,0.59089823220258
+1,1,hand:cum_max_token_entropy [task-rel],0.1,0.4611801242236025
+1,1,hand:cum_max_token_entropy [task-rel],0.2,0.47085523172479693
+1,1,hand:cum_max_token_entropy [task-rel],0.3,0.5266364070711896
+1,1,hand:cum_max_token_entropy [task-rel],0.4,0.5316531294792164
+1,1,hand:cum_max_token_entropy [task-rel],0.5,0.5289058767319637
+1,1,hand:cum_max_token_entropy [task-rel],0.6,0.5254419493549929
+1,1,hand:cum_max_token_entropy [task-rel],0.7,0.5260391782130912
+1,1,hand:cum_max_token_entropy [task-rel],0.8,0.5271141901576685
+1,1,hand:cum_max_token_entropy [task-rel],0.9,0.5346392737697085
+1,1,hand:cum_max_token_entropy [task-rel],1.0,0.5381032011466794
+1,1,hand:cum_mean_token_prob,0.1,0.4267797419971333
+1,1,hand:cum_mean_token_prob,0.2,0.4267797419971333
+1,1,hand:cum_mean_token_prob,0.3,0.4267797419971333
+1,1,hand:cum_mean_token_prob,0.4,0.4267797419971333
+1,1,hand:cum_mean_token_prob,0.5,0.4267797419971333
+1,1,hand:cum_mean_token_prob,0.6,0.4267797419971333
+1,1,hand:cum_mean_token_prob,0.7,0.4267797419971333
+1,1,hand:cum_mean_token_prob,0.8,0.4267797419971333
+1,1,hand:cum_mean_token_prob,0.9,0.4267797419971333
+1,1,hand:cum_mean_token_prob,1.0,0.4267797419971333
+1,1,hand:cum_mean_token_prob [task-rel],0.1,0.46691352126134733
+1,1,hand:cum_mean_token_prob [task-rel],0.2,0.45090778786430963
+1,1,hand:cum_mean_token_prob [task-rel],0.3,0.4392021022455805
+1,1,hand:cum_mean_token_prob [task-rel],0.4,0.4658385093167702
+1,1,hand:cum_mean_token_prob [task-rel],0.5,0.49581939799331104
+1,1,hand:cum_mean_token_prob [task-rel],0.6,0.4992833253702819
+1,1,hand:cum_mean_token_prob [task-rel],0.7,0.4986860965121835
+1,1,hand:cum_mean_token_prob [task-rel],0.8,0.5015527950310559
+1,1,hand:cum_mean_token_prob [task-rel],0.9,0.5076445293836598
+1,1,hand:cum_mean_token_prob [task-rel],1.0,0.5047778308647873
+1,1,hand:cum_dpos,0.1,0.4228380315336837
+1,1,hand:cum_dpos,0.2,0.4690635451505017
+1,1,hand:cum_dpos,0.3,0.4750358337314859
+1,1,hand:cum_dpos,0.4,0.4626134734830387
+1,1,hand:cum_dpos,0.5,0.4335881509794553
+1,1,hand:cum_dpos,0.6,0.40539894887720973
+1,1,hand:cum_dpos,0.7,0.4042044911610129
+1,1,hand:cum_dpos,0.8,0.400382226469183
+1,1,hand:cum_dpos,0.9,0.37577639751552794
+1,1,hand:cum_dpos,1.0,0.3792403248924988
+1,1,hand:cum_dpos [task-rel],0.1,0.433707596751075
+1,1,hand:cum_dpos [task-rel],0.2,0.42857142857142855
+1,1,hand:cum_dpos [task-rel],0.3,0.4523411371237458
+1,1,hand:cum_dpos [task-rel],0.4,0.47706641184902054
+1,1,hand:cum_dpos [task-rel],0.5,0.5025083612040134
+1,1,hand:cum_dpos [task-rel],0.6,0.5262780697563306
+1,1,hand:cum_dpos [task-rel],0.7,0.5222169135212613
+1,1,hand:cum_dpos [task-rel],0.8,0.5274725274725275
+1,1,hand:cum_dpos [task-rel],0.9,0.5250836120401338
+1,1,hand:cum_dpos [task-rel],1.0,0.5258002866698519
+1,1,hand:cum_drot,0.1,0.43788819875776397
+1,1,hand:cum_drot,0.2,0.47611084567606304
+1,1,hand:cum_drot,0.3,0.4741997133301481
+1,1,hand:cum_drot,0.4,0.4819636884854276
+1,1,hand:cum_drot,0.5,0.48638318203535597
+1,1,hand:cum_drot,0.6,0.4866220735785953
+1,1,hand:cum_drot,0.7,0.4973721930243669
+1,1,hand:cum_drot,0.8,0.5011944577161969
+1,1,hand:cum_drot,0.9,0.4973721930243669
+1,1,hand:cum_drot,1.0,0.49713330148112755
+1,1,hand:cum_drot [task-rel],0.1,0.5280697563306259
+1,1,hand:cum_drot [task-rel],0.2,0.4319159101767797
+1,1,hand:cum_drot [task-rel],0.3,0.47001911132345914
+1,1,hand:cum_drot [task-rel],0.4,0.49880554228380314
+1,1,hand:cum_drot [task-rel],0.5,0.542044911610129
+1,1,hand:cum_drot [task-rel],0.6,0.5697563306258958
+1,1,hand:cum_drot [task-rel],0.7,0.5587673196368849
+1,1,hand:cum_drot [task-rel],0.8,0.5674868609651218
+1,1,hand:cum_drot [task-rel],0.9,0.5699952221691352
+1,1,hand:cum_drot [task-rel],1.0,0.575011944577162
+1,1,hand:dgripper,0.1,0.5005972288580984
+1,1,hand:dgripper,0.2,0.5061514572384138
+1,1,hand:dgripper,0.3,0.49528189202102246
+1,1,hand:dgripper,0.4,0.44206880076445293
+1,1,hand:dgripper,0.5,0.3883182035355948
+1,1,hand:dgripper,0.6,0.3725513616817965
+1,1,hand:dgripper,0.7,0.34561634018155757
+1,1,hand:dgripper,0.8,0.3514691829909221
+1,1,hand:dgripper,0.9,0.36257763975155277
+1,1,hand:dgripper,1.0,0.38461538461538464
+1,1,hand:dgripper [task-rel],0.1,0.49432632584806496
+1,1,hand:dgripper [task-rel],0.2,0.5060320114667941
+1,1,hand:dgripper [task-rel],0.3,0.49480410893454374
+1,1,hand:dgripper [task-rel],0.4,0.4331103678929766
+1,1,hand:dgripper [task-rel],0.5,0.37816531294792166
+1,1,hand:dgripper [task-rel],0.6,0.37064022933588153
+1,1,hand:dgripper [task-rel],0.7,0.33970377448638317
+1,1,hand:dgripper [task-rel],0.8,0.34346631629240326
+1,1,hand:dgripper [task-rel],0.9,0.36221930243669376
+1,1,hand:dgripper [task-rel],1.0,0.3813903487816531
+2,0,SAFE-MLP,0.1,0.5800174689440993
+2,0,SAFE-MLP,0.2,0.5720108695652174
+2,0,SAFE-MLP,0.3,0.578513198757764
+2,0,SAFE-MLP,0.4,0.5744371118012422
+2,0,SAFE-MLP,0.5,0.5920031055900621
+2,0,SAFE-MLP,0.6,0.6467391304347826
+2,0,SAFE-MLP,0.7,0.6975931677018633
+2,0,SAFE-MLP,0.8,0.7450504658385093
+2,0,SAFE-MLP,0.9,0.7827057453416149
+2,0,SAFE-MLP,1.0,0.7993982919254659
+2,0,SAFE-MLP [task-rel],0.1,0.4125582298136646
+2,0,SAFE-MLP [task-rel],0.2,0.4546777950310559
+2,0,SAFE-MLP [task-rel],0.3,0.40304736024844723
+2,0,SAFE-MLP [task-rel],0.4,0.4107142857142857
+2,0,SAFE-MLP [task-rel],0.5,0.4348796583850932
+2,0,SAFE-MLP [task-rel],0.6,0.4561335403726708
+2,0,SAFE-MLP [task-rel],0.7,0.46962344720496896
+2,0,SAFE-MLP [task-rel],0.8,0.484472049689441
+2,0,SAFE-MLP [task-rel],0.9,0.499805900621118
+2,0,SAFE-MLP [task-rel],1.0,0.5049495341614907
+2,0,H&S,0.1,0.5077639751552795
+2,0,H&S,0.2,0.5071816770186336
+2,0,H&S,0.3,0.5096079192546584
+2,0,H&S,0.4,0.5279503105590062
+2,0,H&S,0.5,0.5899650621118012
+2,0,H&S,0.6,0.6582880434782609
+2,0,H&S,0.7,0.7359277950310559
+2,0,H&S,0.8,0.7819293478260869
+2,0,H&S,0.9,0.8083268633540373
+2,0,H&S,1.0,0.8339479813664596
+2,0,H&S [task-rel],0.1,0.5145574534161491
+2,0,H&S [task-rel],0.2,0.5056288819875776
+2,0,H&S [task-rel],0.3,0.5069875776397516
+2,0,H&S [task-rel],0.4,0.5106754658385093
+2,0,H&S [task-rel],0.5,0.5595885093167702
+2,0,H&S [task-rel],0.6,0.6235442546583851
+2,0,H&S [task-rel],0.7,0.6914790372670807
+2,0,H&S [task-rel],0.8,0.7150621118012422
+2,0,H&S [task-rel],0.9,0.7398097826086957
+2,0,H&S [task-rel],1.0,0.7635869565217391
+2,0,SAFE-Embed,0.1,0.4299301242236025
+2,0,SAFE-Embed,0.2,0.41750776397515527
+2,0,SAFE-Embed,0.3,0.42876552795031053
+2,0,SAFE-Embed,0.4,0.4559394409937888
+2,0,SAFE-Embed,0.5,0.531055900621118
+2,0,SAFE-Embed,0.6,0.640042701863354
+2,0,SAFE-Embed,0.7,0.7112771739130435
+2,0,SAFE-Embed,0.8,0.734472049689441
+2,0,SAFE-Embed,0.9,0.7622282608695652
+2,0,SAFE-Embed,1.0,0.7860054347826086
+2,0,SAFE-Embed [task-rel],0.1,0.43216226708074534
+2,0,SAFE-Embed [task-rel],0.2,0.44604037267080743
+2,0,SAFE-Embed [task-rel],0.3,0.5173718944099379
+2,0,SAFE-Embed [task-rel],0.4,0.5535714285714286
+2,0,SAFE-Embed [task-rel],0.5,0.6126746894409938
+2,0,SAFE-Embed [task-rel],0.6,0.671583850931677
+2,0,SAFE-Embed [task-rel],0.7,0.7102096273291926
+2,0,SAFE-Embed [task-rel],0.8,0.719623447204969
+2,0,SAFE-Embed [task-rel],0.9,0.7310753105590062
+2,0,SAFE-Embed [task-rel],1.0,0.7378687888198758
+2,0,hand:cum_mean_token_entropy,0.1,0.44710791925465837
+2,0,hand:cum_mean_token_entropy,0.2,0.4669060559006211
+2,0,hand:cum_mean_token_entropy,0.3,0.48185170807453415
+2,0,hand:cum_mean_token_entropy,0.4,0.5304736024844721
+2,0,hand:cum_mean_token_entropy,0.5,0.5426048136645962
+2,0,hand:cum_mean_token_entropy,0.6,0.5497864906832298
+2,0,hand:cum_mean_token_entropy,0.7,0.5873447204968945
+2,0,hand:cum_mean_token_entropy,0.8,0.625291149068323
+2,0,hand:cum_mean_token_entropy,0.9,0.6362577639751553
+2,0,hand:cum_mean_token_entropy,1.0,0.6657608695652174
+2,0,hand:cum_mean_token_entropy [task-rel],0.1,0.42294254658385094
+2,0,hand:cum_mean_token_entropy [task-rel],0.2,0.438179347826087
+2,0,hand:cum_mean_token_entropy [task-rel],0.3,0.49291537267080743
+2,0,hand:cum_mean_token_entropy [task-rel],0.4,0.5131017080745341
+2,0,hand:cum_mean_token_entropy [task-rel],0.5,0.5245535714285714
+2,0,hand:cum_mean_token_entropy [task-rel],0.6,0.5288237577639752
+2,0,hand:cum_mean_token_entropy [task-rel],0.7,0.5423136645962733
+2,0,hand:cum_mean_token_entropy [task-rel],0.8,0.5444487577639752
+2,0,hand:cum_mean_token_entropy [task-rel],0.9,0.545516304347826
+2,0,hand:cum_mean_token_entropy [task-rel],1.0,0.5461956521739131
+2,0,hand:mean_token_entropy,0.1,0.5263004658385093
+2,0,hand:mean_token_entropy,0.2,0.47389363354037267
+2,0,hand:mean_token_entropy,0.3,0.500485248447205
+2,0,hand:mean_token_entropy,0.4,0.45390139751552794
+2,0,hand:mean_token_entropy,0.5,0.4355590062111801
+2,0,hand:mean_token_entropy,0.6,0.4360442546583851
+2,0,hand:mean_token_entropy,0.7,0.3952833850931677
+2,0,hand:mean_token_entropy,0.8,0.4110054347826087
+2,0,hand:mean_token_entropy,0.9,0.3889751552795031
+2,0,hand:mean_token_entropy,1.0,0.31948757763975155
+2,0,hand:mean_token_entropy [task-rel],0.1,0.5138781055900621
+2,0,hand:mean_token_entropy [task-rel],0.2,0.4577833850931677
+2,0,hand:mean_token_entropy [task-rel],0.3,0.4953416149068323
+2,0,hand:mean_token_entropy [task-rel],0.4,0.4872864906832298
+2,0,hand:mean_token_entropy [task-rel],0.5,0.4865100931677019
+2,0,hand:mean_token_entropy [task-rel],0.6,0.4857336956521739
+2,0,hand:mean_token_entropy [task-rel],0.7,0.48049301242236025
+2,0,hand:mean_token_entropy [task-rel],0.8,0.4828222049689441
+2,0,hand:mean_token_entropy [task-rel],0.9,0.48359860248447206
+2,0,hand:mean_token_entropy [task-rel],1.0,0.4746700310559006
+2,0,hand:cum_max_token_entropy,0.1,0.5134899068322981
+2,0,hand:cum_max_token_entropy,0.2,0.5360054347826086
+2,0,hand:cum_max_token_entropy,0.3,0.5264945652173914
+2,0,hand:cum_max_token_entropy,0.4,0.5424107142857143
+2,0,hand:cum_max_token_entropy,0.5,0.5495923913043478
+2,0,hand:cum_max_token_entropy,0.6,0.5601708074534162
+2,0,hand:cum_max_token_entropy,0.7,0.593652950310559
+2,0,hand:cum_max_token_entropy,0.8,0.6032608695652174
+2,0,hand:cum_max_token_entropy,0.9,0.6219914596273292
+2,0,hand:cum_max_token_entropy,1.0,0.6463509316770186
+2,0,hand:cum_max_token_entropy [task-rel],0.1,0.45797748447204967
+2,0,hand:cum_max_token_entropy [task-rel],0.2,0.47690217391304346
+2,0,hand:cum_max_token_entropy [task-rel],0.3,0.4545807453416149
+2,0,hand:cum_max_token_entropy [task-rel],0.4,0.46224767080745344
+2,0,hand:cum_max_token_entropy [task-rel],0.5,0.468264751552795
+2,0,hand:cum_max_token_entropy [task-rel],0.6,0.47855201863354035
+2,0,hand:cum_max_token_entropy [task-rel],0.7,0.47379658385093165
+2,0,hand:cum_max_token_entropy [task-rel],0.8,0.47408773291925466
+2,0,hand:cum_max_token_entropy [task-rel],0.9,0.47923136645962733
+2,0,hand:cum_max_token_entropy [task-rel],1.0,0.4796195652173913
+2,0,hand:cum_mean_token_prob,0.1,0.4739906832298137
+2,0,hand:cum_mean_token_prob,0.2,0.4739906832298137
+2,0,hand:cum_mean_token_prob,0.3,0.4739906832298137
+2,0,hand:cum_mean_token_prob,0.4,0.4739906832298137
+2,0,hand:cum_mean_token_prob,0.5,0.4739906832298137
+2,0,hand:cum_mean_token_prob,0.6,0.4739906832298137
+2,0,hand:cum_mean_token_prob,0.7,0.4739906832298137
+2,0,hand:cum_mean_token_prob,0.8,0.4739906832298137
+2,0,hand:cum_mean_token_prob,0.9,0.4739906832298137
+2,0,hand:cum_mean_token_prob,1.0,0.4739906832298137
+2,0,hand:cum_mean_token_prob [task-rel],0.1,0.4827251552795031
+2,0,hand:cum_mean_token_prob [task-rel],0.2,0.46195652173913043
+2,0,hand:cum_mean_token_prob [task-rel],0.3,0.5065023291925466
+2,0,hand:cum_mean_token_prob [task-rel],0.4,0.5354231366459627
+2,0,hand:cum_mean_token_prob [task-rel],0.5,0.5457104037267081
+2,0,hand:cum_mean_token_prob [task-rel],0.6,0.5494953416149069
+2,0,hand:cum_mean_token_prob [task-rel],0.7,0.5524068322981367
+2,0,hand:cum_mean_token_prob [task-rel],0.8,0.5558035714285714
+2,0,hand:cum_mean_token_prob [task-rel],0.9,0.5603649068322981
+2,0,hand:cum_mean_token_prob [task-rel],1.0,0.5591032608695652
+2,0,hand:cum_dpos,0.1,0.508394798136646
+2,0,hand:cum_dpos,0.2,0.508394798136646
+2,0,hand:cum_dpos,0.3,0.508394798136646
+2,0,hand:cum_dpos,0.4,0.508394798136646
+2,0,hand:cum_dpos,0.5,0.508394798136646
+2,0,hand:cum_dpos,0.6,0.508394798136646
+2,0,hand:cum_dpos,0.7,0.508394798136646
+2,0,hand:cum_dpos,0.8,0.508394798136646
+2,0,hand:cum_dpos,0.9,0.508394798136646
+2,0,hand:cum_dpos,1.0,0.508394798136646
+2,0,hand:cum_dpos [task-rel],0.1,0.5063082298136646
+2,0,hand:cum_dpos [task-rel],0.2,0.48709239130434784
+2,0,hand:cum_dpos [task-rel],0.3,0.45419254658385094
+2,0,hand:cum_dpos [task-rel],0.4,0.4311917701863354
+2,0,hand:cum_dpos [task-rel],0.5,0.4593361801242236
+2,0,hand:cum_dpos [task-rel],0.6,0.49514751552795033
+2,0,hand:cum_dpos [task-rel],0.7,0.48194875776397517
+2,0,hand:cum_dpos [task-rel],0.8,0.469041149068323
+2,0,hand:cum_dpos [task-rel],0.9,0.45273680124223603
+2,0,hand:cum_dpos [task-rel],1.0,0.4237189440993789
+2,0,hand:cum_drot,0.1,0.4893245341614907
+2,0,hand:cum_drot,0.2,0.4953416149068323
+2,0,hand:cum_drot,0.3,0.5082492236024845
+2,0,hand:cum_drot,0.4,0.5360054347826086
+2,0,hand:cum_drot,0.5,0.5327057453416149
+2,0,hand:cum_drot,0.6,0.5238742236024845
+2,0,hand:cum_drot,0.7,0.5288237577639752
+2,0,hand:cum_drot,0.8,0.5362965838509317
+2,0,hand:cum_drot,0.9,0.5728843167701864
+2,0,hand:cum_drot,1.0,0.6085986024844721
+2,0,hand:cum_drot [task-rel],0.1,0.5428959627329193
+2,0,hand:cum_drot [task-rel],0.2,0.4970885093167702
+2,0,hand:cum_drot [task-rel],0.3,0.5095108695652174
+2,0,hand:cum_drot [task-rel],0.4,0.5053377329192547
+2,0,hand:cum_drot [task-rel],0.5,0.5197981366459627
+2,0,hand:cum_drot [task-rel],0.6,0.5257181677018633
+2,0,hand:cum_drot [task-rel],0.7,0.514266304347826
+2,0,hand:cum_drot [task-rel],0.8,0.5230007763975155
+2,0,hand:cum_drot [task-rel],0.9,0.5256211180124224
+2,0,hand:cum_drot [task-rel],1.0,0.531735248447205
+2,0,hand:dgripper,0.1,0.5141692546583851
+2,0,hand:dgripper,0.2,0.5131987577639752
+2,0,hand:dgripper,0.3,0.4860248447204969
+2,0,hand:dgripper,0.4,0.4192546583850932
+2,0,hand:dgripper,0.5,0.36781832298136646
+2,0,hand:dgripper,0.6,0.41653726708074534
+2,0,hand:dgripper,0.7,0.422554347826087
+2,0,hand:dgripper,0.8,0.4419642857142857
+2,0,hand:dgripper,0.9,0.4732142857142857
+2,0,hand:dgripper,1.0,0.48214285714285715
+2,0,hand:dgripper [task-rel],0.1,0.49776785714285715
+2,0,hand:dgripper [task-rel],0.2,0.5073757763975155
+2,0,hand:dgripper [task-rel],0.3,0.4786975931677019
+2,0,hand:dgripper [task-rel],0.4,0.40566770186335405
+2,0,hand:dgripper [task-rel],0.5,0.3498156055900621
+2,0,hand:dgripper [task-rel],0.6,0.40285326086956524
+2,0,hand:dgripper [task-rel],0.7,0.41513004658385094
+2,0,hand:dgripper [task-rel],0.8,0.4329871894409938
+2,0,hand:dgripper [task-rel],0.9,0.468264751552795
+2,0,hand:dgripper [task-rel],1.0,0.476271350931677
+2,1,SAFE-MLP,0.1,0.5644895186335404
+2,1,SAFE-MLP,0.2,0.5453222049689441
+2,1,SAFE-MLP,0.3,0.5277076863354038
+2,1,SAFE-MLP,0.4,0.5439635093167702
+2,1,SAFE-MLP,0.5,0.5964188664596274
+2,1,SAFE-MLP,0.6,0.6510093167701864
+2,1,SAFE-MLP,0.7,0.7122476708074534
+2,1,SAFE-MLP,0.8,0.7590256211180124
+2,1,SAFE-MLP,0.9,0.7843555900621118
+2,1,SAFE-MLP,1.0,0.7961956521739131
+2,1,SAFE-MLP [task-rel],0.1,0.4358986801242236
+2,1,SAFE-MLP [task-rel],0.2,0.4422069099378882
+2,1,SAFE-MLP [task-rel],0.3,0.40513392857142855
+2,1,SAFE-MLP [task-rel],0.4,0.40493982919254656
+2,1,SAFE-MLP [task-rel],0.5,0.42289402173913043
+2,1,SAFE-MLP [task-rel],0.6,0.44143051242236025
+2,1,SAFE-MLP [task-rel],0.7,0.4552115683229814
+2,1,SAFE-MLP [task-rel],0.8,0.4737480590062112
+2,1,SAFE-MLP [task-rel],0.9,0.4885966614906832
+2,1,SAFE-MLP [task-rel],1.0,0.49606948757763975
+2,1,H&S,0.1,0.5396933229813664
+2,1,H&S,0.2,0.47282608695652173
+2,1,H&S,0.3,0.452930900621118
+2,1,H&S,0.4,0.4417701863354037
+2,1,H&S,0.5,0.5479425465838509
+2,1,H&S,0.6,0.6524650621118012
+2,1,H&S,0.7,0.718264751552795
+2,1,H&S,0.8,0.7412655279503105
+2,1,H&S,0.9,0.7526203416149069
+2,1,H&S,1.0,0.7792119565217391
+2,1,H&S [task-rel],0.1,0.5041731366459627
+2,1,H&S [task-rel],0.2,0.47437888198757766
+2,1,H&S [task-rel],0.3,0.45254270186335405
+2,1,H&S [task-rel],0.4,0.43643245341614906
+2,1,H&S [task-rel],0.5,0.5428959627329193
+2,1,H&S [task-rel],0.6,0.6368400621118012
+2,1,H&S [task-rel],0.7,0.6859472049689441
+2,1,H&S [task-rel],0.8,0.7055512422360248
+2,1,H&S [task-rel],0.9,0.7079774844720497
+2,1,H&S [task-rel],1.0,0.7279697204968945
+2,1,SAFE-Embed,0.1,0.4661296583850932
+2,1,SAFE-Embed,0.2,0.44972826086956524
+2,1,SAFE-Embed,0.3,0.46011257763975155
+2,1,SAFE-Embed,0.4,0.48379270186335405
+2,1,SAFE-Embed,0.5,0.5617236024844721
+2,1,SAFE-Embed,0.6,0.6619759316770186
+2,1,SAFE-Embed,0.7,0.7229231366459627
+2,1,SAFE-Embed,0.8,0.7402950310559007
+2,1,SAFE-Embed,0.9,0.7671777950310559
+2,1,SAFE-Embed,1.0,0.7926048136645962
+2,1,SAFE-Embed [task-rel],0.1,0.4327445652173913
+2,1,SAFE-Embed [task-rel],0.2,0.4483695652173913
+2,1,SAFE-Embed [task-rel],0.3,0.5074728260869565
+2,1,SAFE-Embed [task-rel],0.4,0.5305706521739131
+2,1,SAFE-Embed [task-rel],0.5,0.5814246894409938
+2,1,SAFE-Embed [task-rel],0.6,0.6335403726708074
+2,1,SAFE-Embed [task-rel],0.7,0.6749805900621118
+2,1,SAFE-Embed [task-rel],0.8,0.687111801242236
+2,1,SAFE-Embed [task-rel],0.9,0.7019604037267081
+2,1,SAFE-Embed [task-rel],1.0,0.7138004658385093
+2,1,hand:cum_mean_token_entropy,0.1,0.5225155279503105
+2,1,hand:cum_mean_token_entropy,0.2,0.5225155279503105
+2,1,hand:cum_mean_token_entropy,0.3,0.5225155279503105
+2,1,hand:cum_mean_token_entropy,0.4,0.5225155279503105
+2,1,hand:cum_mean_token_entropy,0.5,0.5225155279503105
+2,1,hand:cum_mean_token_entropy,0.6,0.5225155279503105
+2,1,hand:cum_mean_token_entropy,0.7,0.5225155279503105
+2,1,hand:cum_mean_token_entropy,0.8,0.5225155279503105
+2,1,hand:cum_mean_token_entropy,0.9,0.5225155279503105
+2,1,hand:cum_mean_token_entropy,1.0,0.5225155279503105
+2,1,hand:cum_mean_token_entropy [task-rel],0.1,0.47243788819875776
+2,1,hand:cum_mean_token_entropy [task-rel],0.2,0.4810753105590062
+2,1,hand:cum_mean_token_entropy [task-rel],0.3,0.47583462732919257
+2,1,hand:cum_mean_token_entropy [task-rel],0.4,0.40353260869565216
+2,1,hand:cum_mean_token_entropy [task-rel],0.5,0.39295419254658387
+2,1,hand:cum_mean_token_entropy [task-rel],0.6,0.4100349378881988
+2,1,hand:cum_mean_token_entropy [task-rel],0.7,0.40663819875776397
+2,1,hand:cum_mean_token_entropy [task-rel],0.8,0.39732142857142855
+2,1,hand:cum_mean_token_entropy [task-rel],0.9,0.39101319875776397
+2,1,hand:cum_mean_token_entropy [task-rel],1.0,0.36587732919254656
+2,1,hand:mean_token_entropy,0.1,0.5263004658385093
+2,1,hand:mean_token_entropy,0.2,0.47389363354037267
+2,1,hand:mean_token_entropy,0.3,0.500485248447205
+2,1,hand:mean_token_entropy,0.4,0.45390139751552794
+2,1,hand:mean_token_entropy,0.5,0.4355590062111801
+2,1,hand:mean_token_entropy,0.6,0.4360442546583851
+2,1,hand:mean_token_entropy,0.7,0.3952833850931677
+2,1,hand:mean_token_entropy,0.8,0.4110054347826087
+2,1,hand:mean_token_entropy,0.9,0.3889751552795031
+2,1,hand:mean_token_entropy,1.0,0.31948757763975155
+2,1,hand:mean_token_entropy [task-rel],0.1,0.5138781055900621
+2,1,hand:mean_token_entropy [task-rel],0.2,0.4577833850931677
+2,1,hand:mean_token_entropy [task-rel],0.3,0.4953416149068323
+2,1,hand:mean_token_entropy [task-rel],0.4,0.4872864906832298
+2,1,hand:mean_token_entropy [task-rel],0.5,0.4865100931677019
+2,1,hand:mean_token_entropy [task-rel],0.6,0.4857336956521739
+2,1,hand:mean_token_entropy [task-rel],0.7,0.48049301242236025
+2,1,hand:mean_token_entropy [task-rel],0.8,0.4828222049689441
+2,1,hand:mean_token_entropy [task-rel],0.9,0.48359860248447206
+2,1,hand:mean_token_entropy [task-rel],1.0,0.4746700310559006
+2,1,hand:cum_max_token_entropy,0.1,0.5134899068322981
+2,1,hand:cum_max_token_entropy,0.2,0.5360054347826086
+2,1,hand:cum_max_token_entropy,0.3,0.5264945652173914
+2,1,hand:cum_max_token_entropy,0.4,0.5424107142857143
+2,1,hand:cum_max_token_entropy,0.5,0.5495923913043478
+2,1,hand:cum_max_token_entropy,0.6,0.5601708074534162
+2,1,hand:cum_max_token_entropy,0.7,0.593652950310559
+2,1,hand:cum_max_token_entropy,0.8,0.6032608695652174
+2,1,hand:cum_max_token_entropy,0.9,0.6219914596273292
+2,1,hand:cum_max_token_entropy,1.0,0.6463509316770186
+2,1,hand:cum_max_token_entropy [task-rel],0.1,0.45797748447204967
+2,1,hand:cum_max_token_entropy [task-rel],0.2,0.47690217391304346
+2,1,hand:cum_max_token_entropy [task-rel],0.3,0.4545807453416149
+2,1,hand:cum_max_token_entropy [task-rel],0.4,0.46224767080745344
+2,1,hand:cum_max_token_entropy [task-rel],0.5,0.468264751552795
+2,1,hand:cum_max_token_entropy [task-rel],0.6,0.47855201863354035
+2,1,hand:cum_max_token_entropy [task-rel],0.7,0.47379658385093165
+2,1,hand:cum_max_token_entropy [task-rel],0.8,0.47408773291925466
+2,1,hand:cum_max_token_entropy [task-rel],0.9,0.47923136645962733
+2,1,hand:cum_max_token_entropy [task-rel],1.0,0.4796195652173913
+2,1,hand:cum_mean_token_prob,0.1,0.56152950310559
+2,1,hand:cum_mean_token_prob,0.2,0.546389751552795
+2,1,hand:cum_mean_token_prob,0.3,0.5245535714285714
+2,1,hand:cum_mean_token_prob,0.4,0.484180900621118
+2,1,hand:cum_mean_token_prob,0.5,0.46554736024844723
+2,1,hand:cum_mean_token_prob,0.6,0.4706909937888199
+2,1,hand:cum_mean_token_prob,0.7,0.4375
+2,1,hand:cum_mean_token_prob,0.8,0.40896739130434784
+2,1,hand:cum_mean_token_prob,0.9,0.4072204968944099
+2,1,hand:cum_mean_token_prob,1.0,0.36985636645962733
+2,1,hand:cum_mean_token_prob [task-rel],0.1,0.5219332298136646
+2,1,hand:cum_mean_token_prob [task-rel],0.2,0.4893245341614907
+2,1,hand:cum_mean_token_prob [task-rel],0.3,0.45652173913043476
+2,1,hand:cum_mean_token_prob [task-rel],0.4,0.42148680124223603
+2,1,hand:cum_mean_token_prob [task-rel],0.5,0.3888781055900621
+2,1,hand:cum_mean_token_prob [task-rel],0.6,0.40848214285714285
+2,1,hand:cum_mean_token_prob [task-rel],0.7,0.40401785714285715
+2,1,hand:cum_mean_token_prob [task-rel],0.8,0.3984860248447205
+2,1,hand:cum_mean_token_prob [task-rel],0.9,0.3891692546583851
+2,1,hand:cum_mean_token_prob [task-rel],1.0,0.3692740683229814
+2,1,hand:cum_dpos,0.1,0.508394798136646
+2,1,hand:cum_dpos,0.2,0.508394798136646
+2,1,hand:cum_dpos,0.3,0.508394798136646
+2,1,hand:cum_dpos,0.4,0.508394798136646
+2,1,hand:cum_dpos,0.5,0.508394798136646
+2,1,hand:cum_dpos,0.6,0.508394798136646
+2,1,hand:cum_dpos,0.7,0.508394798136646
+2,1,hand:cum_dpos,0.8,0.508394798136646
+2,1,hand:cum_dpos,0.9,0.508394798136646
+2,1,hand:cum_dpos,1.0,0.508394798136646
+2,1,hand:cum_dpos [task-rel],0.1,0.5063082298136646
+2,1,hand:cum_dpos [task-rel],0.2,0.48709239130434784
+2,1,hand:cum_dpos [task-rel],0.3,0.45419254658385094
+2,1,hand:cum_dpos [task-rel],0.4,0.4311917701863354
+2,1,hand:cum_dpos [task-rel],0.5,0.4593361801242236
+2,1,hand:cum_dpos [task-rel],0.6,0.49514751552795033
+2,1,hand:cum_dpos [task-rel],0.7,0.48194875776397517
+2,1,hand:cum_dpos [task-rel],0.8,0.469041149068323
+2,1,hand:cum_dpos [task-rel],0.9,0.45273680124223603
+2,1,hand:cum_dpos [task-rel],1.0,0.4237189440993789
+2,1,hand:cum_drot,0.1,0.5186335403726708
+2,1,hand:cum_drot,0.2,0.5186335403726708
+2,1,hand:cum_drot,0.3,0.5186335403726708
+2,1,hand:cum_drot,0.4,0.5186335403726708
+2,1,hand:cum_drot,0.5,0.5186335403726708
+2,1,hand:cum_drot,0.6,0.5186335403726708
+2,1,hand:cum_drot,0.7,0.5186335403726708
+2,1,hand:cum_drot,0.8,0.5186335403726708
+2,1,hand:cum_drot,0.9,0.5186335403726708
+2,1,hand:cum_drot,1.0,0.5186335403726708
+2,1,hand:cum_drot [task-rel],0.1,0.5511451863354038
+2,1,hand:cum_drot [task-rel],0.2,0.5171777950310559
+2,1,hand:cum_drot [task-rel],0.3,0.48029891304347827
+2,1,hand:cum_drot [task-rel],0.4,0.46020962732919257
+2,1,hand:cum_drot [task-rel],0.5,0.4576863354037267
+2,1,hand:cum_drot [task-rel],0.6,0.47952251552795033
+2,1,hand:cum_drot [task-rel],0.7,0.47729037267080743
+2,1,hand:cum_drot [task-rel],0.8,0.47874611801242234
+2,1,hand:cum_drot [task-rel],0.9,0.4630240683229814
+2,1,hand:cum_drot [task-rel],1.0,0.43982919254658387
+2,1,hand:dgripper,0.1,0.4955357142857143
+2,1,hand:dgripper,0.2,0.4955357142857143
+2,1,hand:dgripper,0.3,0.5
+2,1,hand:dgripper,0.4,0.5
+2,1,hand:dgripper,0.5,0.5
+2,1,hand:dgripper,0.6,0.5
+2,1,hand:dgripper,0.7,0.5
+2,1,hand:dgripper,0.8,0.5
+2,1,hand:dgripper,0.9,0.5
+2,1,hand:dgripper,1.0,0.5
+2,1,hand:dgripper [task-rel],0.1,0.5128590838509317
+2,1,hand:dgripper [task-rel],0.2,0.5121797360248447
+2,1,hand:dgripper [task-rel],0.3,0.5171292701863354
+2,1,hand:dgripper [task-rel],0.4,0.5170322204968945
+2,1,hand:dgripper [task-rel],0.5,0.5172263198757764
+2,1,hand:dgripper [task-rel],0.6,0.5173233695652174
+2,1,hand:dgripper [task-rel],0.7,0.5173233695652174
+2,1,hand:dgripper [task-rel],0.8,0.5173233695652174
+2,1,hand:dgripper [task-rel],0.9,0.5173233695652174
+2,1,hand:dgripper [task-rel],1.0,0.5173233695652174
+3,0,SAFE-MLP,0.1,0.6157161803713528
+3,0,SAFE-MLP,0.2,0.5943539219401288
+3,0,SAFE-MLP,0.3,0.5844069723380069
+3,0,SAFE-MLP,0.4,0.6157161803713528
+3,0,SAFE-MLP,0.5,0.6508147025388404
+3,0,SAFE-MLP,0.6,0.6833080712391058
+3,0,SAFE-MLP,0.7,0.7270746494884426
+3,0,SAFE-MLP,0.8,0.7755778704054566
+3,0,SAFE-MLP,0.9,0.8167866616142478
+3,0,SAFE-MLP,1.0,0.8488063660477454
+3,0,SAFE-MLP [task-rel],0.1,0.5713338385752179
+3,0,SAFE-MLP [task-rel],0.2,0.5432929139825692
+3,0,SAFE-MLP [task-rel],0.3,0.4640962485790072
+3,0,SAFE-MLP [task-rel],0.4,0.4645699128457749
+3,0,SAFE-MLP [task-rel],0.5,0.4865479348237969
+3,0,SAFE-MLP [task-rel],0.6,0.4938423645320197
+3,0,SAFE-MLP [task-rel],0.7,0.5161045850701023
+3,0,SAFE-MLP [task-rel],0.8,0.5304092459264873
+3,0,SAFE-MLP [task-rel],0.9,0.5434823796892763
+3,0,SAFE-MLP [task-rel],1.0,0.5501136794240242
+3,0,H&S,0.1,0.3755210306934445
+3,0,H&S,0.2,0.41426676771504356
+3,0,H&S,0.3,0.39333080712391055
+3,0,H&S,0.4,0.4286661614247821
+3,0,H&S,0.5,0.47679045092838196
+3,0,H&S,0.6,0.5072944297082228
+3,0,H&S,0.7,0.5615763546798029
+3,0,H&S,0.8,0.6077112542629785
+3,0,H&S,0.9,0.6494884425918909
+3,0,H&S,1.0,0.6720348616900341
+3,0,H&S [task-rel],0.1,0.4136036377415688
+3,0,H&S [task-rel],0.2,0.4167298219022357
+3,0,H&S [task-rel],0.3,0.3905835543766578
+3,0,H&S [task-rel],0.4,0.4282872300113679
+3,0,H&S [task-rel],0.5,0.4781167108753316
+3,0,H&S [task-rel],0.6,0.5088101553618795
+3,0,H&S [task-rel],0.7,0.5602500947328534
+3,0,H&S [task-rel],0.8,0.6022167487684729
+3,0,H&S [task-rel],0.9,0.6427624100037893
+3,0,H&S [task-rel],1.0,0.6572565365668814
+3,0,SAFE-Embed,0.1,0.5294619173929519
+3,0,SAFE-Embed,0.2,0.4197612732095491
+3,0,SAFE-Embed,0.3,0.4070670708601743
+3,0,SAFE-Embed,0.4,0.39674118984463813
+3,0,SAFE-Embed,0.5,0.41578249336870027
+3,0,SAFE-Embed,0.6,0.4453391436150057
+3,0,SAFE-Embed,0.7,0.4888215233042819
+3,0,SAFE-Embed,0.8,0.5241568776051535
+3,0,SAFE-Embed,0.9,0.5579765062523683
+3,0,SAFE-Embed,1.0,0.5875331564986738
+3,0,SAFE-Embed [task-rel],0.1,0.3962675255778704
+3,0,SAFE-Embed [task-rel],0.2,0.39683592269799167
+3,0,SAFE-Embed [task-rel],0.3,0.40848806366047746
+3,0,SAFE-Embed [task-rel],0.4,0.4180560818491853
+3,0,SAFE-Embed [task-rel],0.5,0.4501705191360364
+3,0,SAFE-Embed [task-rel],0.6,0.4928950359984843
+3,0,SAFE-Embed [task-rel],0.7,0.5328723001136795
+3,0,SAFE-Embed [task-rel],0.8,0.5660287987874195
+3,0,SAFE-Embed [task-rel],0.9,0.5982379689276242
+3,0,SAFE-Embed [task-rel],1.0,0.6288366805608185
+3,0,hand:cum_mean_token_entropy,0.1,0.4331186055323986
+3,0,hand:cum_mean_token_entropy,0.2,0.41483516483516486
+3,0,hand:cum_mean_token_entropy,0.3,0.4303713527851459
+3,0,hand:cum_mean_token_entropy,0.4,0.45632815460401666
+3,0,hand:cum_mean_token_entropy,0.5,0.4640962485790072
+3,0,hand:cum_mean_token_entropy,0.6,0.479064039408867
+3,0,hand:cum_mean_token_entropy,0.7,0.47527472527472525
+3,0,hand:cum_mean_token_entropy,0.8,0.4850322091701402
+3,0,hand:cum_mean_token_entropy,0.9,0.5188518378173551
+3,0,hand:cum_mean_token_entropy,1.0,0.5388404698749526
+3,0,hand:cum_mean_token_entropy [task-rel],0.1,0.4988632057597575
+3,0,hand:cum_mean_token_entropy [task-rel],0.2,0.5027472527472527
+3,0,hand:cum_mean_token_entropy [task-rel],0.3,0.5647025388404698
+3,0,hand:cum_mean_token_entropy [task-rel],0.4,0.5955854490337249
+3,0,hand:cum_mean_token_entropy [task-rel],0.5,0.6059113300492611
+3,0,hand:cum_mean_token_entropy [task-rel],0.6,0.6137741568776052
+3,0,hand:cum_mean_token_entropy [task-rel],0.7,0.6216369837059492
+3,0,hand:cum_mean_token_entropy [task-rel],0.8,0.625615763546798
+3,0,hand:cum_mean_token_entropy [task-rel],0.9,0.6267525577870405
+3,0,hand:cum_mean_token_entropy [task-rel],1.0,0.6274156877605154
+3,0,hand:mean_token_entropy,0.1,0.554945054945055
+3,0,hand:mean_token_entropy,0.2,0.5481242895035998
+3,0,hand:mean_token_entropy,0.3,0.5577870405456612
+3,0,hand:mean_token_entropy,0.4,0.5185676392572944
+3,0,hand:mean_token_entropy,0.5,0.5008525956801819
+3,0,hand:mean_token_entropy,0.6,0.5228306176582038
+3,0,hand:mean_token_entropy,0.7,0.5075786282682835
+3,0,hand:mean_token_entropy,0.8,0.4343501326259947
+3,0,hand:mean_token_entropy,0.9,0.41616142478211443
+3,0,hand:mean_token_entropy,1.0,0.4154035619552861
+3,0,hand:mean_token_entropy [task-rel],0.1,0.43908677529367185
+3,0,hand:mean_token_entropy [task-rel],0.2,0.42857142857142855
+3,0,hand:mean_token_entropy [task-rel],0.3,0.4671276998863206
+3,0,hand:mean_token_entropy [task-rel],0.4,0.4645699128457749
+3,0,hand:mean_token_entropy [task-rel],0.5,0.46873815839333083
+3,0,hand:mean_token_entropy [task-rel],0.6,0.47186434255399773
+3,0,hand:mean_token_entropy [task-rel],0.7,0.47849564228874575
+3,0,hand:mean_token_entropy [task-rel],0.8,0.4779272451686245
+3,0,hand:mean_token_entropy [task-rel],0.9,0.4825691549829481
+3,0,hand:mean_token_entropy [task-rel],1.0,0.48455854490337247
+3,0,hand:cum_max_token_entropy,0.1,0.51657824933687
+3,0,hand:cum_max_token_entropy,0.2,0.5261462675255779
+3,0,hand:cum_max_token_entropy,0.3,0.5461348995831754
+3,0,hand:cum_max_token_entropy,0.4,0.5589238347859038
+3,0,hand:cum_max_token_entropy,0.5,0.5670708601743084
+3,0,hand:cum_max_token_entropy,0.6,0.5814702538840469
+3,0,hand:cum_max_token_entropy,0.7,0.5782493368700266
+3,0,hand:cum_max_token_entropy,0.8,0.5900909435392194
+3,0,hand:cum_max_token_entropy,0.9,0.603637741568776
+3,0,hand:cum_max_token_entropy,1.0,0.6006062902614627
+3,0,hand:cum_max_token_entropy [task-rel],0.1,0.5192307692307693
+3,0,hand:cum_max_token_entropy [task-rel],0.2,0.5199886320575976
+3,0,hand:cum_max_token_entropy [task-rel],0.3,0.6027851458885941
+3,0,hand:cum_max_token_entropy [task-rel],0.4,0.6084691170898068
+3,0,hand:cum_max_token_entropy [task-rel],0.5,0.6151004168245547
+3,0,hand:cum_max_token_entropy [task-rel],0.6,0.6153846153846154
+3,0,hand:cum_max_token_entropy [task-rel],0.7,0.6155740810913225
+3,0,hand:cum_max_token_entropy [task-rel],0.8,0.6152898825312618
+3,0,hand:cum_max_token_entropy [task-rel],0.9,0.6207843880257673
+3,0,hand:cum_max_token_entropy [task-rel],1.0,0.6214475179992421
+3,0,hand:cum_mean_token_prob,0.1,0.5012315270935961
+3,0,hand:cum_mean_token_prob,0.2,0.5012315270935961
+3,0,hand:cum_mean_token_prob,0.3,0.5012315270935961
+3,0,hand:cum_mean_token_prob,0.4,0.5012315270935961
+3,0,hand:cum_mean_token_prob,0.5,0.5012315270935961
+3,0,hand:cum_mean_token_prob,0.6,0.5012315270935961
+3,0,hand:cum_mean_token_prob,0.7,0.5012315270935961
+3,0,hand:cum_mean_token_prob,0.8,0.5012315270935961
+3,0,hand:cum_mean_token_prob,0.9,0.5012315270935961
+3,0,hand:cum_mean_token_prob,1.0,0.5012315270935961
+3,0,hand:cum_mean_token_prob [task-rel],0.1,0.5202728306176582
+3,0,hand:cum_mean_token_prob [task-rel],0.2,0.5049261083743842
+3,0,hand:cum_mean_token_prob [task-rel],0.3,0.5425350511557409
+3,0,hand:cum_mean_token_prob [task-rel],0.4,0.5501136794240242
+3,0,hand:cum_mean_token_prob [task-rel],0.5,0.5662182644941266
+3,0,hand:cum_mean_token_prob [task-rel],0.6,0.5685865858279652
+3,0,hand:cum_mean_token_prob [task-rel],0.7,0.5708601743084502
+3,0,hand:cum_mean_token_prob [task-rel],0.8,0.5772072754831375
+3,0,hand:cum_mean_token_prob [task-rel],0.9,0.579196665403562
+3,0,hand:cum_mean_token_prob [task-rel],1.0,0.579196665403562
+3,0,hand:cum_dpos,0.1,0.5331091322470632
+3,0,hand:cum_dpos,0.2,0.5331091322470632
+3,0,hand:cum_dpos,0.3,0.5331091322470632
+3,0,hand:cum_dpos,0.4,0.5331091322470632
+3,0,hand:cum_dpos,0.5,0.5331091322470632
+3,0,hand:cum_dpos,0.6,0.5331091322470632
+3,0,hand:cum_dpos,0.7,0.5331091322470632
+3,0,hand:cum_dpos,0.8,0.5331091322470632
+3,0,hand:cum_dpos,0.9,0.5331091322470632
+3,0,hand:cum_dpos,1.0,0.5331091322470632
+3,0,hand:cum_dpos [task-rel],0.1,0.4805797650625237
+3,0,hand:cum_dpos [task-rel],0.2,0.5095680181887079
+3,0,hand:cum_dpos [task-rel],0.3,0.44590754073512695
+3,0,hand:cum_dpos [task-rel],0.4,0.48455854490337247
+3,0,hand:cum_dpos [task-rel],0.5,0.5075786282682835
+3,0,hand:cum_dpos [task-rel],0.6,0.5158203865100417
+3,0,hand:cum_dpos [task-rel],0.7,0.5147783251231527
+3,0,hand:cum_dpos [task-rel],0.8,0.5121258052292536
+3,0,hand:cum_dpos [task-rel],0.9,0.5085259568018189
+3,0,hand:cum_dpos [task-rel],1.0,0.5082417582417582
+3,0,hand:cum_drot,0.1,0.42743463433118606
+3,0,hand:cum_drot,0.2,0.4389920424403183
+3,0,hand:cum_drot,0.3,0.4341606669192876
+3,0,hand:cum_drot,0.4,0.4408866995073892
+3,0,hand:cum_drot,0.5,0.4508336491095112
+3,0,hand:cum_drot,0.6,0.4683592269799166
+3,0,hand:cum_drot,0.7,0.47603258810155363
+3,0,hand:cum_drot,0.8,0.4825691549829481
+3,0,hand:cum_drot,0.9,0.5038840469874952
+3,0,hand:cum_drot,1.0,0.5202728306176582
+3,0,hand:cum_drot [task-rel],0.1,0.5027472527472527
+3,0,hand:cum_drot [task-rel],0.2,0.45850701023114815
+3,0,hand:cum_drot [task-rel],0.3,0.48342175066313
+3,0,hand:cum_drot [task-rel],0.4,0.4781167108753316
+3,0,hand:cum_drot [task-rel],0.5,0.5152519893899205
+3,0,hand:cum_drot [task-rel],0.6,0.5497347480106101
+3,0,hand:cum_drot [task-rel],0.7,0.5467032967032966
+3,0,hand:cum_drot [task-rel],0.8,0.5470822281167109
+3,0,hand:cum_drot [task-rel],0.9,0.5566502463054187
+3,0,hand:cum_drot [task-rel],1.0,0.5795755968169761
+3,0,hand:dgripper,0.1,0.49957370215990904
+3,0,hand:dgripper,0.2,0.5081943918150815
+3,0,hand:dgripper,0.3,0.5058260704812428
+3,0,hand:dgripper,0.4,0.4115668813944676
+3,0,hand:dgripper,0.5,0.3886415308829102
+3,0,hand:dgripper,0.6,0.334785903751421
+3,0,hand:dgripper,0.7,0.3217601364153088
+3,0,hand:dgripper,0.8,0.3268283440697234
+3,0,hand:dgripper,0.9,0.34601174687381586
+3,0,hand:dgripper,1.0,0.3793103448275862
+3,0,hand:dgripper [task-rel],0.1,0.5080049261083743
+3,0,hand:dgripper [task-rel],0.2,0.5085733232284957
+3,0,hand:dgripper [task-rel],0.3,0.5051155740810913
+3,0,hand:dgripper [task-rel],0.4,0.40986169003410383
+3,0,hand:dgripper [task-rel],0.5,0.38224706328154606
+3,0,hand:dgripper [task-rel],0.6,0.33933308071239104
+3,0,hand:dgripper [task-rel],0.7,0.3212391057218643
+3,0,hand:dgripper [task-rel],0.8,0.32569154982948084
+3,0,hand:dgripper [task-rel],0.9,0.3435960591133005
+3,0,hand:dgripper [task-rel],1.0,0.37556839712012124
+3,1,SAFE-MLP,0.1,0.5223569533914362
+3,1,SAFE-MLP,0.2,0.4761273209549072
+3,1,SAFE-MLP,0.3,0.47461159530125047
+3,1,SAFE-MLP,0.4,0.5318302387267905
+3,1,SAFE-MLP,0.5,0.5917961348995832
+3,1,SAFE-MLP,0.6,0.6457938613111027
+3,1,SAFE-MLP,0.7,0.6919287608942781
+3,1,SAFE-MLP,0.8,0.7315270935960592
+3,1,SAFE-MLP,0.9,0.776335733232285
+3,1,SAFE-MLP,1.0,0.8004926108374384
+3,1,SAFE-MLP [task-rel],0.1,0.4143615005683971
+3,1,SAFE-MLP [task-rel],0.2,0.4046040166729822
+3,1,SAFE-MLP [task-rel],0.3,0.42715043577112544
+3,1,SAFE-MLP [task-rel],0.4,0.4852216748768473
+3,1,SAFE-MLP [task-rel],0.5,0.5273777946191739
+3,1,SAFE-MLP [task-rel],0.6,0.5599658961727927
+3,1,SAFE-MLP [task-rel],0.7,0.5856384994316028
+3,1,SAFE-MLP [task-rel],0.8,0.6088480485032209
+3,1,SAFE-MLP [task-rel],0.9,0.6324365289882531
+3,1,SAFE-MLP [task-rel],1.0,0.6510989010989011
+3,1,H&S,0.1,0.47480106100795755
+3,1,H&S,0.2,0.36926866237211065
+3,1,H&S,0.3,0.3962675255778704
+3,1,H&S,0.4,0.43207654414550967
+3,1,H&S,0.5,0.49990526714664646
+3,1,H&S,0.6,0.5416824554755589
+3,1,H&S,0.7,0.5717127699886321
+3,1,H&S,0.8,0.6356574460022736
+3,1,H&S,0.9,0.6688139446760136
+3,1,H&S,1.0,0.6863395225464191
+3,1,H&S [task-rel],0.1,0.4539598332701781
+3,1,H&S [task-rel],0.2,0.36832133383857524
+3,1,H&S [task-rel],0.3,0.40356195528609323
+3,1,H&S [task-rel],0.4,0.4413603637741569
+3,1,H&S [task-rel],0.5,0.5089996210685865
+3,1,H&S [task-rel],0.6,0.5456612353164078
+3,1,H&S [task-rel],0.7,0.5746494884425919
+3,1,H&S [task-rel],0.8,0.6370784388025768
+3,1,H&S [task-rel],0.9,0.6780030314513074
+3,1,H&S [task-rel],1.0,0.6937286851079955
+3,1,SAFE-Embed,0.1,0.49090564607805987
+3,1,SAFE-Embed,0.2,0.4017620310723759
+3,1,SAFE-Embed,0.3,0.39721485411140584
+3,1,SAFE-Embed,0.4,0.3915308829101933
+3,1,SAFE-Embed,0.5,0.4127510420613869
+3,1,SAFE-Embed,0.6,0.4449602122015915
+3,1,SAFE-Embed,0.7,0.4929897688518378
+3,1,SAFE-Embed,0.8,0.5355248200075786
+3,1,SAFE-Embed,0.9,0.5729442970822282
+3,1,SAFE-Embed,1.0,0.6092269799166351
+3,1,SAFE-Embed [task-rel],0.1,0.38897309586964757
+3,1,SAFE-Embed [task-rel],0.2,0.39721485411140584
+3,1,SAFE-Embed [task-rel],0.3,0.42648730579765065
+3,1,SAFE-Embed [task-rel],0.4,0.43813944676013644
+3,1,SAFE-Embed [task-rel],0.5,0.4683592269799166
+3,1,SAFE-Embed [task-rel],0.6,0.513262599469496
+3,1,SAFE-Embed [task-rel],0.7,0.5563660477453581
+3,1,SAFE-Embed [task-rel],0.8,0.5917014020462297
+3,1,SAFE-Embed [task-rel],0.9,0.6249526335733232
+3,1,SAFE-Embed [task-rel],1.0,0.6530882910193255
+3,1,hand:cum_mean_token_entropy,0.1,0.4331186055323986
+3,1,hand:cum_mean_token_entropy,0.2,0.41483516483516486
+3,1,hand:cum_mean_token_entropy,0.3,0.4303713527851459
+3,1,hand:cum_mean_token_entropy,0.4,0.45632815460401666
+3,1,hand:cum_mean_token_entropy,0.5,0.4640962485790072
+3,1,hand:cum_mean_token_entropy,0.6,0.479064039408867
+3,1,hand:cum_mean_token_entropy,0.7,0.47527472527472525
+3,1,hand:cum_mean_token_entropy,0.8,0.4850322091701402
+3,1,hand:cum_mean_token_entropy,0.9,0.5188518378173551
+3,1,hand:cum_mean_token_entropy,1.0,0.5388404698749526
+3,1,hand:cum_mean_token_entropy [task-rel],0.1,0.4988632057597575
+3,1,hand:cum_mean_token_entropy [task-rel],0.2,0.5027472527472527
+3,1,hand:cum_mean_token_entropy [task-rel],0.3,0.5647025388404698
+3,1,hand:cum_mean_token_entropy [task-rel],0.4,0.5955854490337249
+3,1,hand:cum_mean_token_entropy [task-rel],0.5,0.6059113300492611
+3,1,hand:cum_mean_token_entropy [task-rel],0.6,0.6137741568776052
+3,1,hand:cum_mean_token_entropy [task-rel],0.7,0.6216369837059492
+3,1,hand:cum_mean_token_entropy [task-rel],0.8,0.625615763546798
+3,1,hand:cum_mean_token_entropy [task-rel],0.9,0.6267525577870405
+3,1,hand:cum_mean_token_entropy [task-rel],1.0,0.6274156877605154
+3,1,hand:mean_token_entropy,0.1,0.554945054945055
+3,1,hand:mean_token_entropy,0.2,0.5481242895035998
+3,1,hand:mean_token_entropy,0.3,0.5577870405456612
+3,1,hand:mean_token_entropy,0.4,0.5185676392572944
+3,1,hand:mean_token_entropy,0.5,0.5008525956801819
+3,1,hand:mean_token_entropy,0.6,0.5228306176582038
+3,1,hand:mean_token_entropy,0.7,0.5075786282682835
+3,1,hand:mean_token_entropy,0.8,0.4343501326259947
+3,1,hand:mean_token_entropy,0.9,0.41616142478211443
+3,1,hand:mean_token_entropy,1.0,0.4154035619552861
+3,1,hand:mean_token_entropy [task-rel],0.1,0.43908677529367185
+3,1,hand:mean_token_entropy [task-rel],0.2,0.42857142857142855
+3,1,hand:mean_token_entropy [task-rel],0.3,0.4671276998863206
+3,1,hand:mean_token_entropy [task-rel],0.4,0.4645699128457749
+3,1,hand:mean_token_entropy [task-rel],0.5,0.46873815839333083
+3,1,hand:mean_token_entropy [task-rel],0.6,0.47186434255399773
+3,1,hand:mean_token_entropy [task-rel],0.7,0.47849564228874575
+3,1,hand:mean_token_entropy [task-rel],0.8,0.4779272451686245
+3,1,hand:mean_token_entropy [task-rel],0.9,0.4825691549829481
+3,1,hand:mean_token_entropy [task-rel],1.0,0.48455854490337247
+3,1,hand:cum_max_token_entropy,0.1,0.51657824933687
+3,1,hand:cum_max_token_entropy,0.2,0.5261462675255779
+3,1,hand:cum_max_token_entropy,0.3,0.5461348995831754
+3,1,hand:cum_max_token_entropy,0.4,0.5589238347859038
+3,1,hand:cum_max_token_entropy,0.5,0.5670708601743084
+3,1,hand:cum_max_token_entropy,0.6,0.5814702538840469
+3,1,hand:cum_max_token_entropy,0.7,0.5782493368700266
+3,1,hand:cum_max_token_entropy,0.8,0.5900909435392194
+3,1,hand:cum_max_token_entropy,0.9,0.603637741568776
+3,1,hand:cum_max_token_entropy,1.0,0.6006062902614627
+3,1,hand:cum_max_token_entropy [task-rel],0.1,0.5192307692307693
+3,1,hand:cum_max_token_entropy [task-rel],0.2,0.5199886320575976
+3,1,hand:cum_max_token_entropy [task-rel],0.3,0.6027851458885941
+3,1,hand:cum_max_token_entropy [task-rel],0.4,0.6084691170898068
+3,1,hand:cum_max_token_entropy [task-rel],0.5,0.6151004168245547
+3,1,hand:cum_max_token_entropy [task-rel],0.6,0.6153846153846154
+3,1,hand:cum_max_token_entropy [task-rel],0.7,0.6155740810913225
+3,1,hand:cum_max_token_entropy [task-rel],0.8,0.6152898825312618
+3,1,hand:cum_max_token_entropy [task-rel],0.9,0.6207843880257673
+3,1,hand:cum_max_token_entropy [task-rel],1.0,0.6214475179992421
+3,1,hand:cum_mean_token_prob,0.1,0.5012315270935961
+3,1,hand:cum_mean_token_prob,0.2,0.5012315270935961
+3,1,hand:cum_mean_token_prob,0.3,0.5012315270935961
+3,1,hand:cum_mean_token_prob,0.4,0.5012315270935961
+3,1,hand:cum_mean_token_prob,0.5,0.5012315270935961
+3,1,hand:cum_mean_token_prob,0.6,0.5012315270935961
+3,1,hand:cum_mean_token_prob,0.7,0.5012315270935961
+3,1,hand:cum_mean_token_prob,0.8,0.5012315270935961
+3,1,hand:cum_mean_token_prob,0.9,0.5012315270935961
+3,1,hand:cum_mean_token_prob,1.0,0.5012315270935961
+3,1,hand:cum_mean_token_prob [task-rel],0.1,0.5202728306176582
+3,1,hand:cum_mean_token_prob [task-rel],0.2,0.5049261083743842
+3,1,hand:cum_mean_token_prob [task-rel],0.3,0.5425350511557409
+3,1,hand:cum_mean_token_prob [task-rel],0.4,0.5501136794240242
+3,1,hand:cum_mean_token_prob [task-rel],0.5,0.5662182644941266
+3,1,hand:cum_mean_token_prob [task-rel],0.6,0.5685865858279652
+3,1,hand:cum_mean_token_prob [task-rel],0.7,0.5708601743084502
+3,1,hand:cum_mean_token_prob [task-rel],0.8,0.5772072754831375
+3,1,hand:cum_mean_token_prob [task-rel],0.9,0.579196665403562
+3,1,hand:cum_mean_token_prob [task-rel],1.0,0.579196665403562
+3,1,hand:cum_dpos,0.1,0.44562334217506633
+3,1,hand:cum_dpos,0.2,0.4771693823417961
+3,1,hand:cum_dpos,0.3,0.4903372489579386
+3,1,hand:cum_dpos,0.4,0.4928950359984843
+3,1,hand:cum_dpos,0.5,0.4751799924213717
+3,1,hand:cum_dpos,0.6,0.4608753315649867
+3,1,hand:cum_dpos,0.7,0.44107616521409626
+3,1,hand:cum_dpos,0.8,0.4396551724137931
+3,1,hand:cum_dpos,0.9,0.4433497536945813
+3,1,hand:cum_dpos,1.0,0.4477074649488443
+3,1,hand:cum_dpos [task-rel],0.1,0.5272830617658204
+3,1,hand:cum_dpos [task-rel],0.2,0.5347669571807503
+3,1,hand:cum_dpos [task-rel],0.3,0.5294619173929519
+3,1,hand:cum_dpos [task-rel],0.4,0.5614816218264495
+3,1,hand:cum_dpos [task-rel],0.5,0.5720917014020462
+3,1,hand:cum_dpos [task-rel],0.6,0.5730390299355816
+3,1,hand:cum_dpos [task-rel],0.7,0.5716180371352785
+3,1,hand:cum_dpos [task-rel],0.8,0.5756915498294809
+3,1,hand:cum_dpos [task-rel],0.9,0.5730390299355816
+3,1,hand:cum_dpos [task-rel],1.0,0.574838954149299
+3,1,hand:cum_drot,0.1,0.42743463433118606
+3,1,hand:cum_drot,0.2,0.4389920424403183
+3,1,hand:cum_drot,0.3,0.4341606669192876
+3,1,hand:cum_drot,0.4,0.4408866995073892
+3,1,hand:cum_drot,0.5,0.4508336491095112
+3,1,hand:cum_drot,0.6,0.4683592269799166
+3,1,hand:cum_drot,0.7,0.47603258810155363
+3,1,hand:cum_drot,0.8,0.4825691549829481
+3,1,hand:cum_drot,0.9,0.5038840469874952
+3,1,hand:cum_drot,1.0,0.5202728306176582
+3,1,hand:cum_drot [task-rel],0.1,0.5027472527472527
+3,1,hand:cum_drot [task-rel],0.2,0.45850701023114815
+3,1,hand:cum_drot [task-rel],0.3,0.48342175066313
+3,1,hand:cum_drot [task-rel],0.4,0.4781167108753316
+3,1,hand:cum_drot [task-rel],0.5,0.5152519893899205
+3,1,hand:cum_drot [task-rel],0.6,0.5497347480106101
+3,1,hand:cum_drot [task-rel],0.7,0.5467032967032966
+3,1,hand:cum_drot [task-rel],0.8,0.5470822281167109
+3,1,hand:cum_drot [task-rel],0.9,0.5566502463054187
+3,1,hand:cum_drot [task-rel],1.0,0.5795755968169761
+3,1,hand:dgripper,0.1,0.49957370215990904
+3,1,hand:dgripper,0.2,0.5081943918150815
+3,1,hand:dgripper,0.3,0.5058260704812428
+3,1,hand:dgripper,0.4,0.4115668813944676
+3,1,hand:dgripper,0.5,0.3886415308829102
+3,1,hand:dgripper,0.6,0.334785903751421
+3,1,hand:dgripper,0.7,0.3217601364153088
+3,1,hand:dgripper,0.8,0.3268283440697234
+3,1,hand:dgripper,0.9,0.34601174687381586
+3,1,hand:dgripper,1.0,0.3793103448275862
+3,1,hand:dgripper [task-rel],0.1,0.5080049261083743
+3,1,hand:dgripper [task-rel],0.2,0.5085733232284957
+3,1,hand:dgripper [task-rel],0.3,0.5051155740810913
+3,1,hand:dgripper [task-rel],0.4,0.40986169003410383
+3,1,hand:dgripper [task-rel],0.5,0.38224706328154606
+3,1,hand:dgripper [task-rel],0.6,0.33933308071239104
+3,1,hand:dgripper [task-rel],0.7,0.3212391057218643
+3,1,hand:dgripper [task-rel],0.8,0.32569154982948084
+3,1,hand:dgripper [task-rel],0.9,0.3435960591133005
+3,1,hand:dgripper [task-rel],1.0,0.37556839712012124
+4,0,SAFE-MLP,0.1,0.5842644750207775
+4,0,SAFE-MLP,0.2,0.5961769323113861
+4,0,SAFE-MLP,0.3,0.6007018191892142
+4,0,SAFE-MLP,0.4,0.6384707729245545
+4,0,SAFE-MLP,0.5,0.6911995567457753
+4,0,SAFE-MLP,0.6,0.7410656570320436
+4,0,SAFE-MLP,0.7,0.7754178594514729
+4,0,SAFE-MLP,0.8,0.8123557115153753
+4,0,SAFE-MLP,0.9,0.8440299196601717
+4,0,SAFE-MLP,1.0,0.8645304275556377
+4,0,SAFE-MLP [task-rel],0.1,0.41407332163634686
+4,0,SAFE-MLP [task-rel],0.2,0.4000369378520639
+4,0,SAFE-MLP [task-rel],0.3,0.40243789823621756
+4,0,SAFE-MLP [task-rel],0.4,0.4137039431157078
+4,0,SAFE-MLP [task-rel],0.5,0.43281928155877736
+4,0,SAFE-MLP [task-rel],0.6,0.44759442238433833
+4,0,SAFE-MLP [task-rel],0.7,0.4504571059192908
+4,0,SAFE-MLP [task-rel],0.8,0.4612614276479823
+4,0,SAFE-MLP [task-rel],0.9,0.46948009973220056
+4,0,SAFE-MLP [task-rel],1.0,0.47483608828146645
+4,0,H&S,0.1,0.44547049589066395
+4,0,H&S,0.2,0.40188383045525905
+4,0,H&S,0.3,0.4185058638840151
+4,0,H&S,0.4,0.4897959183673469
+4,0,H&S,0.5,0.5849108874318958
+4,0,H&S,0.6,0.6430880044325422
+4,0,H&S,0.7,0.7106842737094838
+4,0,H&S,0.8,0.7577800350909595
+4,0,H&S,0.9,0.7818819835626558
+4,0,H&S,1.0,0.7982269831009327
+4,0,H&S [task-rel],0.1,0.401145073413981
+4,0,H&S [task-rel],0.2,0.4046541693600517
+4,0,H&S [task-rel],0.3,0.41915227629513346
+4,0,H&S [task-rel],0.4,0.4897035737371872
+4,0,H&S [task-rel],0.5,0.5844491642810971
+4,0,H&S [task-rel],0.6,0.64013297626743
+4,0,H&S [task-rel],0.7,0.7015421553236679
+4,0,H&S [task-rel],0.8,0.7373718718256533
+4,0,H&S [task-rel],0.9,0.7513159109797766
+4,0,H&S [task-rel],1.0,0.7661833964354973
+4,0,SAFE-Embed,0.1,0.46984947825283957
+4,0,SAFE-Embed,0.2,0.44574752978114324
+4,0,SAFE-Embed,0.3,0.4656016252654908
+4,0,SAFE-Embed,0.4,0.47502077754178595
+4,0,SAFE-Embed,0.5,0.5411395327361714
+4,0,SAFE-Embed,0.6,0.616677440206852
+4,0,SAFE-Embed,0.7,0.6908301782251363
+4,0,SAFE-Embed,0.8,0.7311847816049497
+4,0,SAFE-Embed,0.9,0.7611967864068705
+4,0,SAFE-Embed,1.0,0.7853910795087266
+4,0,SAFE-Embed [task-rel],0.1,0.45202696463200664
+4,0,SAFE-Embed [task-rel],0.2,0.45138055222088835
+4,0,SAFE-Embed [task-rel],0.3,0.5478806907378336
+4,0,SAFE-Embed [task-rel],0.4,0.5603472158094007
+4,0,SAFE-Embed [task-rel],0.5,0.6035645027241666
+4,0,SAFE-Embed [task-rel],0.6,0.6633114784375289
+4,0,SAFE-Embed [task-rel],0.7,0.7171483978206667
+4,0,SAFE-Embed [task-rel],0.8,0.7503001200480192
+4,0,SAFE-Embed [task-rel],0.9,0.7737556561085973
+4,0,SAFE-Embed [task-rel],1.0,0.79167051435959
+4,0,hand:cum_mean_token_entropy,0.1,0.5203619909502263
+4,0,hand:cum_mean_token_entropy,0.2,0.4962600424785299
+4,0,hand:cum_mean_token_entropy,0.3,0.5285806630344445
+4,0,hand:cum_mean_token_entropy,0.4,0.5336596176932311
+4,0,hand:cum_mean_token_entropy,0.5,0.5442792501616031
+4,0,hand:cum_mean_token_entropy,0.6,0.5358758888170653
+4,0,hand:cum_mean_token_entropy,0.7,0.5425247021885677
+4,0,hand:cum_mean_token_entropy,0.8,0.557576876904608
+4,0,hand:cum_mean_token_entropy,0.9,0.5822328931572629
+4,0,hand:cum_mean_token_entropy,1.0,0.6042109151352849
+4,0,hand:cum_mean_token_entropy [task-rel],0.1,0.5105734601532921
+4,0,hand:cum_mean_token_entropy [task-rel],0.2,0.5297811432265214
+4,0,hand:cum_mean_token_entropy [task-rel],0.3,0.6011635423400129
+4,0,hand:cum_mean_token_entropy [task-rel],0.4,0.6150152368639764
+4,0,hand:cum_mean_token_entropy [task-rel],0.5,0.6225874965370763
+4,0,hand:cum_mean_token_entropy [task-rel],0.6,0.6260965924831471
+4,0,hand:cum_mean_token_entropy [task-rel],0.7,0.6361621571705606
+4,0,hand:cum_mean_token_entropy [task-rel],0.8,0.6404100101579093
+4,0,hand:cum_mean_token_entropy [task-rel],0.9,0.6417951796103056
+4,0,hand:cum_mean_token_entropy [task-rel],1.0,0.6418875242404655
+4,0,hand:mean_token_entropy,0.1,0.4744667097608274
+4,0,hand:mean_token_entropy,0.2,0.4968141102594884
+4,0,hand:mean_token_entropy,0.3,0.5448333179425616
+4,0,hand:mean_token_entropy,0.4,0.5033705790008312
+4,0,hand:mean_token_entropy,0.5,0.46827961954012376
+4,0,hand:mean_token_entropy,0.6,0.5108504940437714
+4,0,hand:mean_token_entropy,0.7,0.4785298734878567
+4,0,hand:mean_token_entropy,0.8,0.44427001569858715
+4,0,hand:mean_token_entropy,0.9,0.44362360328746886
+4,0,hand:mean_token_entropy,1.0,0.4108412595807554
+4,0,hand:mean_token_entropy [task-rel],0.1,0.47686767014498105
+4,0,hand:mean_token_entropy [task-rel],0.2,0.4716963708560347
+4,0,hand:mean_token_entropy [task-rel],0.3,0.5036476128913103
+4,0,hand:mean_token_entropy [task-rel],0.4,0.48757964724351277
+4,0,hand:mean_token_entropy [task-rel],0.5,0.4839782066672823
+4,0,hand:mean_token_entropy [task-rel],0.6,0.4835164835164835
+4,0,hand:mean_token_entropy [task-rel],0.7,0.4803767660910518
+4,0,hand:mean_token_entropy [task-rel],0.8,0.4765906362545018
+4,0,hand:mean_token_entropy [task-rel],0.9,0.47696001477514083
+4,0,hand:mean_token_entropy [task-rel],1.0,0.4732662295687506
+4,0,hand:cum_max_token_entropy,0.1,0.5797395881429495
+4,0,hand:cum_max_token_entropy,0.2,0.5522208883553421
+4,0,hand:cum_max_token_entropy,0.3,0.5513897866839044
+4,0,hand:cum_max_token_entropy,0.4,0.5480653799981531
+4,0,hand:cum_max_token_entropy,0.5,0.5411395327361714
+4,0,hand:cum_max_token_entropy,0.6,0.5441869055314433
+4,0,hand:cum_max_token_entropy,0.7,0.5467725551759165
+4,0,hand:cum_max_token_entropy,0.8,0.5642256902761105
+4,0,hand:cum_max_token_entropy,0.9,0.5699510573460154
+4,0,hand:cum_max_token_entropy,1.0,0.5735524979222458
+4,0,hand:cum_max_token_entropy [task-rel],0.1,0.5389232616123373
+4,0,hand:cum_max_token_entropy [task-rel],0.2,0.5500969618616678
+4,0,hand:cum_max_token_entropy [task-rel],0.3,0.5798319327731093
+4,0,hand:cum_max_token_entropy [task-rel],0.4,0.5879582602271678
+4,0,hand:cum_max_token_entropy [task-rel],0.5,0.5959922430510666
+4,0,hand:cum_max_token_entropy [task-rel],0.6,0.6109520731369471
+4,0,hand:cum_max_token_entropy [task-rel],0.7,0.6140917905623788
+4,0,hand:cum_max_token_entropy [task-rel],0.8,0.6139071013020593
+4,0,hand:cum_max_token_entropy [task-rel],0.9,0.6185243328100472
+4,0,hand:cum_max_token_entropy [task-rel],1.0,0.6188013667005263
+4,0,hand:cum_mean_token_prob,0.1,0.5217471604026226
+4,0,hand:cum_mean_token_prob,0.2,0.5217471604026226
+4,0,hand:cum_mean_token_prob,0.3,0.5217471604026226
+4,0,hand:cum_mean_token_prob,0.4,0.5217471604026226
+4,0,hand:cum_mean_token_prob,0.5,0.5217471604026226
+4,0,hand:cum_mean_token_prob,0.6,0.5217471604026226
+4,0,hand:cum_mean_token_prob,0.7,0.5217471604026226
+4,0,hand:cum_mean_token_prob,0.8,0.5217471604026226
+4,0,hand:cum_mean_token_prob,0.9,0.5217471604026226
+4,0,hand:cum_mean_token_prob,1.0,0.5217471604026226
+4,0,hand:cum_mean_token_prob [task-rel],0.1,0.5157447594422384
+4,0,hand:cum_mean_token_prob [task-rel],0.2,0.5287653522947641
+4,0,hand:cum_mean_token_prob [task-rel],0.3,0.609105180533752
+4,0,hand:cum_mean_token_prob [task-rel],0.4,0.598116169544741
+4,0,hand:cum_mean_token_prob [task-rel],0.5,0.6004247852987349
+4,0,hand:cum_mean_token_prob [task-rel],0.6,0.6051343614368825
+4,0,hand:cum_mean_token_prob [task-rel],0.7,0.6092898697940715
+4,0,hand:cum_mean_token_prob [task-rel],0.8,0.6149228922338166
+4,0,hand:cum_mean_token_prob [task-rel],0.9,0.616308061686213
+4,0,hand:cum_mean_token_prob [task-rel],1.0,0.6173238526179703
+4,0,hand:cum_dpos,0.1,0.5174993074152738
+4,0,hand:cum_dpos,0.2,0.5224859174439006
+4,0,hand:cum_dpos,0.3,0.524240465416936
+4,0,hand:cum_dpos,0.4,0.5073413980977006
+4,0,hand:cum_dpos,0.5,0.461353772278142
+4,0,hand:cum_dpos,0.6,0.42081447963800905
+4,0,hand:cum_dpos,0.7,0.4065934065934066
+4,0,hand:cum_dpos,0.8,0.41933696555545297
+4,0,hand:cum_dpos,0.9,0.442053744574753
+4,0,hand:cum_dpos,1.0,0.4767753255148213
+4,0,hand:cum_dpos [task-rel],0.1,0.5331978945424324
+4,0,hand:cum_dpos [task-rel],0.2,0.5566534306030104
+4,0,hand:cum_dpos [task-rel],0.3,0.558685012466525
+4,0,hand:cum_dpos [task-rel],0.4,0.5690276110444178
+4,0,hand:cum_dpos [task-rel],0.5,0.573090774771447
+4,0,hand:cum_dpos [task-rel],0.6,0.5542524702188568
+4,0,hand:cum_dpos [task-rel],0.7,0.552313232985502
+4,0,hand:cum_dpos [task-rel],0.8,0.5509280635331055
+4,0,hand:cum_dpos [task-rel],0.9,0.5516668205743837
+4,0,hand:cum_dpos [task-rel],1.0,0.5515744759442238
+4,0,hand:cum_drot,0.1,0.48757964724351277
+4,0,hand:cum_drot,0.2,0.49376673746421645
+4,0,hand:cum_drot,0.3,0.48093083387201035
+4,0,hand:cum_drot,0.4,0.4841628959276018
+4,0,hand:cum_drot,0.5,0.4782528395973774
+4,0,hand:cum_drot,0.6,0.4782528395973774
+4,0,hand:cum_drot,0.7,0.4805614553513713
+4,0,hand:cum_drot,0.8,0.49404377135469574
+4,0,hand:cum_drot,0.9,0.5293194200757226
+4,0,hand:cum_drot,1.0,0.5707821590174531
+4,0,hand:cum_drot [task-rel],0.1,0.5112198725644104
+4,0,hand:cum_drot [task-rel],0.2,0.4669867947178872
+4,0,hand:cum_drot [task-rel],0.3,0.47465139902114695
+4,0,hand:cum_drot [task-rel],0.4,0.4485178686859359
+4,0,hand:cum_drot [task-rel],0.5,0.46338535414165666
+4,0,hand:cum_drot [task-rel],0.6,0.4717887154861945
+4,0,hand:cum_drot [task-rel],0.7,0.4683719641702835
+4,0,hand:cum_drot [task-rel],0.8,0.4654169360051713
+4,0,hand:cum_drot [task-rel],0.9,0.47557484532274447
+4,0,hand:cum_drot [task-rel],1.0,0.5025394773293933
+4,0,hand:dgripper,0.1,0.5003232062055591
+4,0,hand:dgripper,0.2,0.49903038138332256
+4,0,hand:dgripper,0.3,0.4854557207498384
+4,0,hand:dgripper,0.4,0.36716224951519066
+4,0,hand:dgripper,0.5,0.3587588881706529
+4,0,hand:dgripper,0.6,0.332579185520362
+4,0,hand:dgripper,0.7,0.3597285067873303
+4,0,hand:dgripper,0.8,0.3739495798319328
+4,0,hand:dgripper,0.9,0.41596638655462187
+4,0,hand:dgripper,1.0,0.4411764705882353
+4,0,hand:dgripper [task-rel],0.1,0.49930741527380185
+4,0,hand:dgripper [task-rel],0.2,0.49939975990396157
+4,0,hand:dgripper [task-rel],0.3,0.48467079139348046
+4,0,hand:dgripper [task-rel],0.4,0.3688244528580663
+4,0,hand:dgripper [task-rel],0.5,0.356819650937298
+4,0,hand:dgripper [task-rel],0.6,0.3372887616585096
+4,0,hand:dgripper [task-rel],0.7,0.364022532089759
+4,0,hand:dgripper [task-rel],0.8,0.3778742266137224
+4,0,hand:dgripper [task-rel],0.9,0.41910610398005355
+4,0,hand:dgripper [task-rel],1.0,0.4439006371779481
+4,1,SAFE-MLP,0.1,0.5669036845507434
+4,1,SAFE-MLP,0.2,0.5452950410933605
+4,1,SAFE-MLP,0.3,0.573090774771447
+4,1,SAFE-MLP,0.4,0.6070735986702374
+4,1,SAFE-MLP,0.5,0.6597100378612983
+4,1,SAFE-MLP,0.6,0.7187182565333826
+4,1,SAFE-MLP,0.7,0.7699695262720473
+4,1,SAFE-MLP,0.8,0.821220796010712
+4,1,SAFE-MLP,0.9,0.8598208514174901
+4,1,SAFE-MLP,1.0,0.8835534213685474
+4,1,SAFE-MLP [task-rel],0.1,0.4639394219226152
+4,1,SAFE-MLP [task-rel],0.2,0.420075722596731
+4,1,SAFE-MLP [task-rel],0.3,0.4626465971003786
+4,1,SAFE-MLP [task-rel],0.4,0.48213131406408716
+4,1,SAFE-MLP [task-rel],0.5,0.4965370763690091
+4,1,SAFE-MLP [task-rel],0.6,0.524609843937575
+4,1,SAFE-MLP [task-rel],0.7,0.5494505494505495
+4,1,SAFE-MLP [task-rel],0.8,0.5748453227444824
+4,1,SAFE-MLP [task-rel],0.9,0.5879582602271678
+4,1,SAFE-MLP [task-rel],1.0,0.5987625819558593
+4,1,H&S,0.1,0.5193462000184689
+4,1,H&S,0.2,0.5327361713916335
+4,1,H&S,0.3,0.4953365961769323
+4,1,H&S,0.4,0.5113122171945701
+4,1,H&S,0.5,0.5934989380367531
+4,1,H&S,0.6,0.6530612244897959
+4,1,H&S,0.7,0.688244528580663
+4,1,H&S,0.8,0.7262905162064826
+4,1,H&S,0.9,0.7479915042940253
+4,1,H&S,1.0,0.7750484809308339
+4,1,H&S [task-rel],0.1,0.49413611598485546
+4,1,H&S [task-rel],0.2,0.5331055499122725
+4,1,H&S [task-rel],0.3,0.48914950595622864
+4,1,H&S [task-rel],0.4,0.5049404377135469
+4,1,H&S [task-rel],0.5,0.5790931757318312
+4,1,H&S [task-rel],0.6,0.6306214793609751
+4,1,H&S [task-rel],0.7,0.6563856311755472
+4,1,H&S [task-rel],0.8,0.6831655739218765
+4,1,H&S [task-rel],0.9,0.7009880875427094
+4,1,H&S [task-rel],1.0,0.7205651491365777
+4,1,SAFE-Embed,0.1,0.4487025579462554
+4,1,SAFE-Embed,0.2,0.45008772739865177
+4,1,SAFE-Embed,0.3,0.4677255517591652
+4,1,SAFE-Embed,0.4,0.47945331978945427
+4,1,SAFE-Embed,0.5,0.5423400129282482
+4,1,SAFE-Embed,0.6,0.6238803213593129
+4,1,SAFE-Embed,0.7,0.6951703758426447
+4,1,SAFE-Embed,0.8,0.7297996121525533
+4,1,SAFE-Embed,0.9,0.7573183119401606
+4,1,SAFE-Embed,1.0,0.7792039892880229
+4,1,SAFE-Embed [task-rel],0.1,0.4658786591559701
+4,1,SAFE-Embed [task-rel],0.2,0.47012651214331885
+4,1,SAFE-Embed [task-rel],0.3,0.535229476405947
+4,1,SAFE-Embed [task-rel],0.4,0.5519438544648628
+4,1,SAFE-Embed [task-rel],0.5,0.6077200110813556
+4,1,SAFE-Embed [task-rel],0.6,0.6762397266598947
+4,1,SAFE-Embed [task-rel],0.7,0.731831194016068
+4,1,SAFE-Embed [task-rel],0.8,0.7624896112291071
+4,1,SAFE-Embed [task-rel],0.9,0.7879767291531997
+4,1,SAFE-Embed [task-rel],1.0,0.8059839320343523
+4,1,hand:cum_mean_token_entropy,0.1,0.5203619909502263
+4,1,hand:cum_mean_token_entropy,0.2,0.4962600424785299
+4,1,hand:cum_mean_token_entropy,0.3,0.5285806630344445
+4,1,hand:cum_mean_token_entropy,0.4,0.5336596176932311
+4,1,hand:cum_mean_token_entropy,0.5,0.5442792501616031
+4,1,hand:cum_mean_token_entropy,0.6,0.5358758888170653
+4,1,hand:cum_mean_token_entropy,0.7,0.5425247021885677
+4,1,hand:cum_mean_token_entropy,0.8,0.557576876904608
+4,1,hand:cum_mean_token_entropy,0.9,0.5822328931572629
+4,1,hand:cum_mean_token_entropy,1.0,0.6042109151352849
+4,1,hand:cum_mean_token_entropy [task-rel],0.1,0.5105734601532921
+4,1,hand:cum_mean_token_entropy [task-rel],0.2,0.5297811432265214
+4,1,hand:cum_mean_token_entropy [task-rel],0.3,0.6011635423400129
+4,1,hand:cum_mean_token_entropy [task-rel],0.4,0.6150152368639764
+4,1,hand:cum_mean_token_entropy [task-rel],0.5,0.6225874965370763
+4,1,hand:cum_mean_token_entropy [task-rel],0.6,0.6260965924831471
+4,1,hand:cum_mean_token_entropy [task-rel],0.7,0.6361621571705606
+4,1,hand:cum_mean_token_entropy [task-rel],0.8,0.6404100101579093
+4,1,hand:cum_mean_token_entropy [task-rel],0.9,0.6417951796103056
+4,1,hand:cum_mean_token_entropy [task-rel],1.0,0.6418875242404655
+4,1,hand:mean_token_entropy,0.1,0.4744667097608274
+4,1,hand:mean_token_entropy,0.2,0.4968141102594884
+4,1,hand:mean_token_entropy,0.3,0.5448333179425616
+4,1,hand:mean_token_entropy,0.4,0.5033705790008312
+4,1,hand:mean_token_entropy,0.5,0.46827961954012376
+4,1,hand:mean_token_entropy,0.6,0.5108504940437714
+4,1,hand:mean_token_entropy,0.7,0.4785298734878567
+4,1,hand:mean_token_entropy,0.8,0.44427001569858715
+4,1,hand:mean_token_entropy,0.9,0.44362360328746886
+4,1,hand:mean_token_entropy,1.0,0.4108412595807554
+4,1,hand:mean_token_entropy [task-rel],0.1,0.47686767014498105
+4,1,hand:mean_token_entropy [task-rel],0.2,0.4716963708560347
+4,1,hand:mean_token_entropy [task-rel],0.3,0.5036476128913103
+4,1,hand:mean_token_entropy [task-rel],0.4,0.48757964724351277
+4,1,hand:mean_token_entropy [task-rel],0.5,0.4839782066672823
+4,1,hand:mean_token_entropy [task-rel],0.6,0.4835164835164835
+4,1,hand:mean_token_entropy [task-rel],0.7,0.4803767660910518
+4,1,hand:mean_token_entropy [task-rel],0.8,0.4765906362545018
+4,1,hand:mean_token_entropy [task-rel],0.9,0.47696001477514083
+4,1,hand:mean_token_entropy [task-rel],1.0,0.4732662295687506
+4,1,hand:cum_max_token_entropy,0.1,0.5797395881429495
+4,1,hand:cum_max_token_entropy,0.2,0.5522208883553421
+4,1,hand:cum_max_token_entropy,0.3,0.5513897866839044
+4,1,hand:cum_max_token_entropy,0.4,0.5480653799981531
+4,1,hand:cum_max_token_entropy,0.5,0.5411395327361714
+4,1,hand:cum_max_token_entropy,0.6,0.5441869055314433
+4,1,hand:cum_max_token_entropy,0.7,0.5467725551759165
+4,1,hand:cum_max_token_entropy,0.8,0.5642256902761105
+4,1,hand:cum_max_token_entropy,0.9,0.5699510573460154
+4,1,hand:cum_max_token_entropy,1.0,0.5735524979222458
+4,1,hand:cum_max_token_entropy [task-rel],0.1,0.5389232616123373
+4,1,hand:cum_max_token_entropy [task-rel],0.2,0.5500969618616678
+4,1,hand:cum_max_token_entropy [task-rel],0.3,0.5798319327731093
+4,1,hand:cum_max_token_entropy [task-rel],0.4,0.5879582602271678
+4,1,hand:cum_max_token_entropy [task-rel],0.5,0.5959922430510666
+4,1,hand:cum_max_token_entropy [task-rel],0.6,0.6109520731369471
+4,1,hand:cum_max_token_entropy [task-rel],0.7,0.6140917905623788
+4,1,hand:cum_max_token_entropy [task-rel],0.8,0.6139071013020593
+4,1,hand:cum_max_token_entropy [task-rel],0.9,0.6185243328100472
+4,1,hand:cum_max_token_entropy [task-rel],1.0,0.6188013667005263
+4,1,hand:cum_mean_token_prob,0.1,0.5217471604026226
+4,1,hand:cum_mean_token_prob,0.2,0.5217471604026226
+4,1,hand:cum_mean_token_prob,0.3,0.5217471604026226
+4,1,hand:cum_mean_token_prob,0.4,0.5217471604026226
+4,1,hand:cum_mean_token_prob,0.5,0.5217471604026226
+4,1,hand:cum_mean_token_prob,0.6,0.5217471604026226
+4,1,hand:cum_mean_token_prob,0.7,0.5217471604026226
+4,1,hand:cum_mean_token_prob,0.8,0.5217471604026226
+4,1,hand:cum_mean_token_prob,0.9,0.5217471604026226
+4,1,hand:cum_mean_token_prob,1.0,0.5217471604026226
+4,1,hand:cum_mean_token_prob [task-rel],0.1,0.5157447594422384
+4,1,hand:cum_mean_token_prob [task-rel],0.2,0.5287653522947641
+4,1,hand:cum_mean_token_prob [task-rel],0.3,0.609105180533752
+4,1,hand:cum_mean_token_prob [task-rel],0.4,0.598116169544741
+4,1,hand:cum_mean_token_prob [task-rel],0.5,0.6004247852987349
+4,1,hand:cum_mean_token_prob [task-rel],0.6,0.6051343614368825
+4,1,hand:cum_mean_token_prob [task-rel],0.7,0.6092898697940715
+4,1,hand:cum_mean_token_prob [task-rel],0.8,0.6149228922338166
+4,1,hand:cum_mean_token_prob [task-rel],0.9,0.616308061686213
+4,1,hand:cum_mean_token_prob [task-rel],1.0,0.6173238526179703
+4,1,hand:cum_dpos,0.1,0.48411672361252195
+4,1,hand:cum_dpos,0.2,0.48411672361252195
+4,1,hand:cum_dpos,0.3,0.48411672361252195
+4,1,hand:cum_dpos,0.4,0.48411672361252195
+4,1,hand:cum_dpos,0.5,0.48411672361252195
+4,1,hand:cum_dpos,0.6,0.48411672361252195
+4,1,hand:cum_dpos,0.7,0.48411672361252195
+4,1,hand:cum_dpos,0.8,0.48411672361252195
+4,1,hand:cum_dpos,0.9,0.48411672361252195
+4,1,hand:cum_dpos,1.0,0.48411672361252195
+4,1,hand:cum_dpos [task-rel],0.1,0.5138055222088835
+4,1,hand:cum_dpos [task-rel],0.2,0.5217471604026226
+4,1,hand:cum_dpos [task-rel],0.3,0.4918275002308616
+4,1,hand:cum_dpos [task-rel],0.4,0.5349524425154677
+4,1,hand:cum_dpos [task-rel],0.5,0.5826946163080617
+4,1,hand:cum_dpos [task-rel],0.6,0.6090128359035922
+4,1,hand:cum_dpos [task-rel],0.7,0.6037491919844861
+4,1,hand:cum_dpos [task-rel],0.8,0.5862037122541324
+4,1,hand:cum_dpos [task-rel],0.9,0.5688429217840982
+4,1,hand:cum_dpos [task-rel],1.0,0.5492658601902299
+4,1,hand:cum_drot,0.1,0.4765906362545018
+4,1,hand:cum_drot,0.2,0.4765906362545018
+4,1,hand:cum_drot,0.3,0.4765906362545018
+4,1,hand:cum_drot,0.4,0.4765906362545018
+4,1,hand:cum_drot,0.5,0.4765906362545018
+4,1,hand:cum_drot,0.6,0.4765906362545018
+4,1,hand:cum_drot,0.7,0.4765906362545018
+4,1,hand:cum_drot,0.8,0.4765906362545018
+4,1,hand:cum_drot,0.9,0.4765906362545018
+4,1,hand:cum_drot,1.0,0.4765906362545018
+4,1,hand:cum_drot [task-rel],0.1,0.5009696186166774
+4,1,hand:cum_drot [task-rel],0.2,0.5037399575214702
+4,1,hand:cum_drot [task-rel],0.3,0.5067873303167421
+4,1,hand:cum_drot [task-rel],0.4,0.5175916520454336
+4,1,hand:cum_drot [task-rel],0.5,0.5369840243789824
+4,1,hand:cum_drot [task-rel],0.6,0.5415089112568104
+4,1,hand:cum_drot [task-rel],0.7,0.5456644196139995
+4,1,hand:cum_drot [task-rel],0.8,0.5440022162711239
+4,1,hand:cum_drot [task-rel],0.9,0.531812725090036
+4,1,hand:cum_drot [task-rel],1.0,0.5093729799612152
+4,1,hand:dgripper,0.1,0.5003232062055591
+4,1,hand:dgripper,0.2,0.49903038138332256
+4,1,hand:dgripper,0.3,0.4854557207498384
+4,1,hand:dgripper,0.4,0.36716224951519066
+4,1,hand:dgripper,0.5,0.3587588881706529
+4,1,hand:dgripper,0.6,0.332579185520362
+4,1,hand:dgripper,0.7,0.3597285067873303
+4,1,hand:dgripper,0.8,0.3739495798319328
+4,1,hand:dgripper,0.9,0.41596638655462187
+4,1,hand:dgripper,1.0,0.4411764705882353
+4,1,hand:dgripper [task-rel],0.1,0.49930741527380185
+4,1,hand:dgripper [task-rel],0.2,0.49939975990396157
+4,1,hand:dgripper [task-rel],0.3,0.48467079139348046
+4,1,hand:dgripper [task-rel],0.4,0.3688244528580663
+4,1,hand:dgripper [task-rel],0.5,0.356819650937298
+4,1,hand:dgripper [task-rel],0.6,0.3372887616585096
+4,1,hand:dgripper [task-rel],0.7,0.364022532089759
+4,1,hand:dgripper [task-rel],0.8,0.3778742266137224
+4,1,hand:dgripper [task-rel],0.9,0.41910610398005355
+4,1,hand:dgripper [task-rel],1.0,0.4439006371779481
+5,0,SAFE-MLP,0.1,0.4713731646504756
+5,0,SAFE-MLP,0.2,0.5039246467817896
+5,0,SAFE-MLP,0.3,0.5260873580201312
+5,0,SAFE-MLP,0.4,0.5474189675870348
+5,0,SAFE-MLP,0.5,0.5796472435127897
+5,0,SAFE-MLP,0.6,0.6414258010896666
+5,0,SAFE-MLP,0.7,0.6857512235663497
+5,0,SAFE-MLP,0.8,0.7239819004524887
+5,0,SAFE-MLP,0.9,0.7658140179148583
+5,0,SAFE-MLP,1.0,0.7945331978945425
+5,0,SAFE-MLP [task-rel],0.1,0.46763320712900547
+5,0,SAFE-MLP [task-rel],0.2,0.4477791116446579
+5,0,SAFE-MLP [task-rel],0.3,0.4504571059192908
+5,0,SAFE-MLP [task-rel],0.4,0.49275094653245916
+5,0,SAFE-MLP [task-rel],0.5,0.5201773016899067
+5,0,SAFE-MLP [task-rel],0.6,0.5539754363283775
+5,0,SAFE-MLP [task-rel],0.7,0.5705051251269738
+5,0,SAFE-MLP [task-rel],0.8,0.5948841074891495
+5,0,SAFE-MLP [task-rel],0.9,0.6091975251639117
+5,0,SAFE-MLP [task-rel],1.0,0.6212946717148398
+5,0,H&S,0.1,0.47354326345922987
+5,0,H&S,0.2,0.48951888447686764
+5,0,H&S,0.3,0.4728968510481116
+5,0,H&S,0.4,0.4982916243420445
+5,0,H&S,0.5,0.5708745036476129
+5,0,H&S,0.6,0.6446578631452581
+5,0,H&S,0.7,0.6690368455074337
+5,0,H&S,0.8,0.6930464493489703
+5,0,H&S,0.9,0.7090220703666081
+5,0,H&S,1.0,0.7415273801828424
+5,0,H&S [task-rel],0.1,0.490534675408625
+5,0,H&S [task-rel],0.2,0.4908117092991043
+5,0,H&S [task-rel],0.3,0.4708652691845969
+5,0,H&S [task-rel],0.4,0.49478252839597375
+5,0,H&S [task-rel],0.5,0.5650567919475482
+5,0,H&S [task-rel],0.6,0.6269276941545849
+5,0,H&S [task-rel],0.7,0.63634684643088
+5,0,H&S [task-rel],0.8,0.6540770154215533
+5,0,H&S [task-rel],0.9,0.6658971280820021
+5,0,H&S [task-rel],1.0,0.6952627204728045
+5,0,SAFE-Embed,0.1,0.43374272786037493
+5,0,SAFE-Embed,0.2,0.43789823621756396
+5,0,SAFE-Embed,0.3,0.4430695355065103
+5,0,SAFE-Embed,0.4,0.4423307784652322
+5,0,SAFE-Embed,0.5,0.5265490811709299
+5,0,SAFE-Embed,0.6,0.6173238526179703
+5,0,SAFE-Embed,0.7,0.6843660541139532
+5,0,SAFE-Embed,0.8,0.7321082279065473
+5,0,SAFE-Embed,0.9,0.7725551759165205
+5,0,SAFE-Embed,1.0,0.8006279434850864
+5,0,SAFE-Embed [task-rel],0.1,0.465139902114692
+5,0,SAFE-Embed [task-rel],0.2,0.48130021239264936
+5,0,SAFE-Embed [task-rel],0.3,0.49912272601348234
+5,0,SAFE-Embed [task-rel],0.4,0.4885954381752701
+5,0,SAFE-Embed [task-rel],0.5,0.540123741804414
+5,0,SAFE-Embed [task-rel],0.6,0.6135377227814203
+5,0,SAFE-Embed [task-rel],0.7,0.6681133992058362
+5,0,SAFE-Embed [task-rel],0.8,0.6993258841998338
+5,0,SAFE-Embed [task-rel],0.9,0.7342321544002216
+5,0,SAFE-Embed [task-rel],1.0,0.7546403176655277
+5,0,hand:cum_mean_token_entropy,0.1,0.4843475851879213
+5,0,hand:cum_mean_token_entropy,0.2,0.4672638286083664
+5,0,hand:cum_mean_token_entropy,0.3,0.5006925847261982
+5,0,hand:cum_mean_token_entropy,0.4,0.49866100286268356
+5,0,hand:cum_mean_token_entropy,0.5,0.5334749284329117
+5,0,hand:cum_mean_token_entropy,0.6,0.5244251546772555
+5,0,hand:cum_mean_token_entropy,0.7,0.5519438544648628
+5,0,hand:cum_mean_token_entropy,0.8,0.5674577523317019
+5,0,hand:cum_mean_token_entropy,0.9,0.581032412965186
+5,0,hand:cum_mean_token_entropy,1.0,0.6069812540400775
+5,0,hand:cum_mean_token_entropy [task-rel],0.1,0.46190784005910057
+5,0,hand:cum_mean_token_entropy [task-rel],0.2,0.5006925847261982
+5,0,hand:cum_mean_token_entropy [task-rel],0.3,0.5664419613999446
+5,0,hand:cum_mean_token_entropy [task-rel],0.4,0.5703204358666544
+5,0,hand:cum_mean_token_entropy [task-rel],0.5,0.6006094745590544
+5,0,hand:cum_mean_token_entropy [task-rel],0.6,0.6044879490257642
+5,0,hand:cum_mean_token_entropy [task-rel],0.7,0.6153846153846154
+5,0,hand:cum_mean_token_entropy [task-rel],0.8,0.6210176378243605
+5,0,hand:cum_mean_token_entropy [task-rel],0.9,0.6227721857973959
+5,0,hand:cum_mean_token_entropy [task-rel],1.0,0.6236956320989935
+5,0,hand:mean_token_entropy,0.1,0.49312032505309816
+5,0,hand:mean_token_entropy,0.2,0.4965370763690091
+5,0,hand:mean_token_entropy,0.3,0.48831840428479084
+5,0,hand:mean_token_entropy,0.4,0.442792501616031
+5,0,hand:mean_token_entropy,0.5,0.4124111182934712
+5,0,hand:mean_token_entropy,0.6,0.42035275648721027
+5,0,hand:mean_token_entropy,0.7,0.4190599316649737
+5,0,hand:mean_token_entropy,0.8,0.4013297626743005
+5,0,hand:mean_token_entropy,0.9,0.3990211469203066
+5,0,hand:mean_token_entropy,1.0,0.3597746791024102
+5,0,hand:mean_token_entropy [task-rel],0.1,0.47465139902114695
+5,0,hand:mean_token_entropy [task-rel],0.2,0.45018007202881155
+5,0,hand:mean_token_entropy [task-rel],0.3,0.44057623049219685
+5,0,hand:mean_token_entropy [task-rel],0.4,0.4247852987348786
+5,0,hand:mean_token_entropy [task-rel],0.5,0.43291162618893714
+5,0,hand:mean_token_entropy [task-rel],0.6,0.431434112106381
+5,0,hand:mean_token_entropy [task-rel],0.7,0.4354972758334103
+5,0,hand:mean_token_entropy [task-rel],0.8,0.43263459229845785
+5,0,hand:mean_token_entropy [task-rel],0.9,0.4354049312032505
+5,0,hand:mean_token_entropy [task-rel],1.0,0.4309723889555822
+5,0,hand:cum_max_token_entropy,0.1,0.5446486286822422
+5,0,hand:cum_max_token_entropy,0.2,0.5389232616123373
+5,0,hand:cum_max_token_entropy,0.3,0.535229476405947
+5,0,hand:cum_max_token_entropy,0.4,0.5376304367901007
+5,0,hand:cum_max_token_entropy,0.5,0.5595161141379629
+5,0,hand:cum_max_token_entropy,0.6,0.5597931480284422
+5,0,hand:cum_max_token_entropy,0.7,0.5732754640317665
+5,0,hand:cum_max_token_entropy,0.8,0.5774309723889556
+5,0,hand:cum_max_token_entropy,0.9,0.5782620740603934
+5,0,hand:cum_max_token_entropy,1.0,0.5839874411302983
+5,0,hand:cum_max_token_entropy [task-rel],0.1,0.4704958906639579
+5,0,hand:cum_max_token_entropy [task-rel],0.2,0.4892418505863884
+5,0,hand:cum_max_token_entropy [task-rel],0.3,0.5395696740234556
+5,0,hand:cum_max_token_entropy [task-rel],0.4,0.5543448148490165
+5,0,hand:cum_max_token_entropy [task-rel],0.5,0.5664419613999446
+5,0,hand:cum_max_token_entropy [task-rel],0.6,0.5821405485271032
+5,0,hand:cum_max_token_entropy [task-rel],0.7,0.5916520454335581
+5,0,hand:cum_max_token_entropy [task-rel],0.8,0.595438175270108
+5,0,hand:cum_max_token_entropy [task-rel],0.9,0.5974697571336227
+5,0,hand:cum_max_token_entropy [task-rel],1.0,0.595807553790747
+5,0,hand:cum_mean_token_prob,0.1,0.45368916797488223
+5,0,hand:cum_mean_token_prob,0.2,0.45368916797488223
+5,0,hand:cum_mean_token_prob,0.3,0.45368916797488223
+5,0,hand:cum_mean_token_prob,0.4,0.45368916797488223
+5,0,hand:cum_mean_token_prob,0.5,0.45368916797488223
+5,0,hand:cum_mean_token_prob,0.6,0.45368916797488223
+5,0,hand:cum_mean_token_prob,0.7,0.45368916797488223
+5,0,hand:cum_mean_token_prob,0.8,0.45368916797488223
+5,0,hand:cum_mean_token_prob,0.9,0.45368916797488223
+5,0,hand:cum_mean_token_prob,1.0,0.45368916797488223
+5,0,hand:cum_mean_token_prob [task-rel],0.1,0.4557207498383969
+5,0,hand:cum_mean_token_prob [task-rel],0.2,0.4928432911626189
+5,0,hand:cum_mean_token_prob [task-rel],0.3,0.5924831471049958
+5,0,hand:cum_mean_token_prob [task-rel],0.4,0.5863884015144519
+5,0,hand:cum_mean_token_prob [task-rel],0.5,0.6115061409179057
+5,0,hand:cum_mean_token_prob [task-rel],0.6,0.6199095022624435
+5,0,hand:cum_mean_token_prob [task-rel],0.7,0.6345922984578447
+5,0,hand:cum_mean_token_prob [task-rel],0.8,0.6424415920214239
+5,0,hand:cum_mean_token_prob [task-rel],0.9,0.639394219226152
+5,0,hand:cum_mean_token_prob [task-rel],1.0,0.6398559423769508
+5,0,hand:cum_dpos,0.1,0.5071105365223012
+5,0,hand:cum_dpos,0.2,0.5071105365223012
+5,0,hand:cum_dpos,0.3,0.5071105365223012
+5,0,hand:cum_dpos,0.4,0.5071105365223012
+5,0,hand:cum_dpos,0.5,0.5071105365223012
+5,0,hand:cum_dpos,0.6,0.5071105365223012
+5,0,hand:cum_dpos,0.7,0.5071105365223012
+5,0,hand:cum_dpos,0.8,0.5071105365223012
+5,0,hand:cum_dpos,0.9,0.5071105365223012
+5,0,hand:cum_dpos,1.0,0.5071105365223012
+5,0,hand:cum_dpos [task-rel],0.1,0.43882168251916154
+5,0,hand:cum_dpos [task-rel],0.2,0.4645858343337335
+5,0,hand:cum_dpos [task-rel],0.3,0.48619447779111646
+5,0,hand:cum_dpos [task-rel],0.4,0.4914581217102226
+5,0,hand:cum_dpos [task-rel],0.5,0.5142672453596824
+5,0,hand:cum_dpos [task-rel],0.6,0.5305199002677994
+5,0,hand:cum_dpos [task-rel],0.7,0.5232246744851787
+5,0,hand:cum_dpos [task-rel],0.8,0.5088189121802568
+5,0,hand:cum_dpos [task-rel],0.9,0.49441314987533475
+5,0,hand:cum_dpos [task-rel],1.0,0.4692030658417213
+5,0,hand:cum_drot,0.1,0.4298642533936652
+5,0,hand:cum_drot,0.2,0.430695355065103
+5,0,hand:cum_drot,0.3,0.4060393388124481
+5,0,hand:cum_drot,0.4,0.4071474743743651
+5,0,hand:cum_drot,0.5,0.41047188106011634
+5,0,hand:cum_drot,0.6,0.4130575307045895
+5,0,hand:cum_drot,0.7,0.4251546772555176
+5,0,hand:cum_drot,0.8,0.43300397081909686
+5,0,hand:cum_drot,0.9,0.4614461169083018
+5,0,hand:cum_drot,1.0,0.498106935081725
+5,0,hand:cum_drot [task-rel],0.1,0.49312032505309816
+5,0,hand:cum_drot [task-rel],0.2,0.46375473266229567
+5,0,hand:cum_drot [task-rel],0.3,0.45082648443992984
+5,0,hand:cum_drot [task-rel],0.4,0.43244990303813835
+5,0,hand:cum_drot [task-rel],0.5,0.4660633484162896
+5,0,hand:cum_drot [task-rel],0.6,0.48998060762766643
+5,0,hand:cum_drot [task-rel],0.7,0.49413611598485546
+5,0,hand:cum_drot [task-rel],0.8,0.4969064548896482
+5,0,hand:cum_drot [task-rel],0.9,0.5092806353310555
+5,0,hand:cum_drot [task-rel],1.0,0.5357835441869055
+5,0,hand:dgripper,0.1,0.4957983193277311
+5,0,hand:dgripper,0.2,0.4957983193277311
+5,0,hand:dgripper,0.3,0.4957983193277311
+5,0,hand:dgripper,0.4,0.4957983193277311
+5,0,hand:dgripper,0.5,0.4957983193277311
+5,0,hand:dgripper,0.6,0.4957983193277311
+5,0,hand:dgripper,0.7,0.4957983193277311
+5,0,hand:dgripper,0.8,0.4957983193277311
+5,0,hand:dgripper,0.9,0.4957983193277311
+5,0,hand:dgripper,1.0,0.4957983193277311
+5,0,hand:dgripper [task-rel],0.1,0.49866100286268356
+5,0,hand:dgripper [task-rel],0.2,0.49866100286268356
+5,0,hand:dgripper [task-rel],0.3,0.49866100286268356
+5,0,hand:dgripper [task-rel],0.4,0.49866100286268356
+5,0,hand:dgripper [task-rel],0.5,0.49866100286268356
+5,0,hand:dgripper [task-rel],0.6,0.49866100286268356
+5,0,hand:dgripper [task-rel],0.7,0.49866100286268356
+5,0,hand:dgripper [task-rel],0.8,0.49866100286268356
+5,0,hand:dgripper [task-rel],0.9,0.49866100286268356
+5,0,hand:dgripper [task-rel],1.0,0.49866100286268356
+5,1,SAFE-MLP,0.1,0.5621941084125958
+5,1,SAFE-MLP,0.2,0.5619170745221166
+5,1,SAFE-MLP,0.3,0.5556376396712531
+5,1,SAFE-MLP,0.4,0.5607165943300397
+5,1,SAFE-MLP,0.5,0.5826022716779019
+5,1,SAFE-MLP,0.6,0.6291439652784191
+5,1,SAFE-MLP,0.7,0.6711607720011081
+5,1,SAFE-MLP,0.8,0.7080062794348508
+5,1,SAFE-MLP,0.9,0.7487302613353034
+5,1,SAFE-MLP,1.0,0.783359497645212
+5,1,SAFE-MLP [task-rel],0.1,0.49505956228645304
+5,1,SAFE-MLP [task-rel],0.2,0.4708652691845969
+5,1,SAFE-MLP [task-rel],0.3,0.41425801089666636
+5,1,SAFE-MLP [task-rel],0.4,0.4367901006556469
+5,1,SAFE-MLP [task-rel],0.5,0.4607997044971835
+5,1,SAFE-MLP [task-rel],0.6,0.5017083756579555
+5,1,SAFE-MLP [task-rel],0.7,0.5284883184042848
+5,1,SAFE-MLP [task-rel],0.8,0.5487117924092714
+5,1,SAFE-MLP [task-rel],0.9,0.57198263920953
+5,1,SAFE-MLP [task-rel],1.0,0.5842644750207775
+5,1,H&S,0.1,0.5462184873949579
+5,1,H&S,0.2,0.47437436513066766
+5,1,H&S,0.3,0.4658786591559701
+5,1,H&S,0.4,0.5045710591929079
+5,1,H&S,0.5,0.5766922153476776
+5,1,H&S,0.6,0.6419798688706252
+5,1,H&S,0.7,0.6760550373995752
+5,1,H&S,0.8,0.686767014498107
+5,1,H&S,0.9,0.709483793517407
+5,1,H&S,1.0,0.7385723520177302
+5,1,H&S [task-rel],0.1,0.49441314987533475
+5,1,H&S [task-rel],0.2,0.4717887154861945
+5,1,H&S [task-rel],0.3,0.47104995844491643
+5,1,H&S [task-rel],0.4,0.5041093360421092
+5,1,H&S [task-rel],0.5,0.5765998707175177
+5,1,H&S [task-rel],0.6,0.6477975805706898
+5,1,H&S [task-rel],0.7,0.676147382029735
+5,1,H&S [task-rel],0.8,0.6896296980330594
+5,1,H&S [task-rel],0.9,0.7059746975713362
+5,1,H&S [task-rel],1.0,0.7293378890017546
+5,1,SAFE-Embed,0.1,0.497368178040447
+5,1,SAFE-Embed,0.2,0.4787145627481762
+5,1,SAFE-Embed,0.3,0.47358943577430973
+5,1,SAFE-Embed,0.4,0.47732939329577984
+5,1,SAFE-Embed,0.5,0.5630252100840336
+5,1,SAFE-Embed,0.6,0.6354234001292824
+5,1,SAFE-Embed,0.7,0.6910148674854557
+5,1,SAFE-Embed,0.8,0.7357096684827777
+5,1,SAFE-Embed,0.9,0.77273986517684
+5,1,SAFE-Embed,1.0,0.7965647797580571
+5,1,SAFE-Embed [task-rel],0.1,0.45008772739865177
+5,1,SAFE-Embed [task-rel],0.2,0.46218487394957986
+5,1,SAFE-Embed [task-rel],0.3,0.4666174161972481
+5,1,SAFE-Embed [task-rel],0.4,0.47557484532274447
+5,1,SAFE-Embed [task-rel],0.5,0.5330132052821128
+5,1,SAFE-Embed [task-rel],0.6,0.6055960845876812
+5,1,SAFE-Embed [task-rel],0.7,0.6561085972850679
+5,1,SAFE-Embed [task-rel],0.8,0.6888909409917813
+5,1,SAFE-Embed [task-rel],0.9,0.7226890756302521
+5,1,SAFE-Embed [task-rel],1.0,0.743558962046357
+5,1,hand:cum_mean_token_entropy,0.1,0.4843475851879213
+5,1,hand:cum_mean_token_entropy,0.2,0.4672638286083664
+5,1,hand:cum_mean_token_entropy,0.3,0.5006925847261982
+5,1,hand:cum_mean_token_entropy,0.4,0.49866100286268356
+5,1,hand:cum_mean_token_entropy,0.5,0.5334749284329117
+5,1,hand:cum_mean_token_entropy,0.6,0.5244251546772555
+5,1,hand:cum_mean_token_entropy,0.7,0.5519438544648628
+5,1,hand:cum_mean_token_entropy,0.8,0.5674577523317019
+5,1,hand:cum_mean_token_entropy,0.9,0.581032412965186
+5,1,hand:cum_mean_token_entropy,1.0,0.6069812540400775
+5,1,hand:cum_mean_token_entropy [task-rel],0.1,0.46190784005910057
+5,1,hand:cum_mean_token_entropy [task-rel],0.2,0.5006925847261982
+5,1,hand:cum_mean_token_entropy [task-rel],0.3,0.5664419613999446
+5,1,hand:cum_mean_token_entropy [task-rel],0.4,0.5703204358666544
+5,1,hand:cum_mean_token_entropy [task-rel],0.5,0.6006094745590544
+5,1,hand:cum_mean_token_entropy [task-rel],0.6,0.6044879490257642
+5,1,hand:cum_mean_token_entropy [task-rel],0.7,0.6153846153846154
+5,1,hand:cum_mean_token_entropy [task-rel],0.8,0.6210176378243605
+5,1,hand:cum_mean_token_entropy [task-rel],0.9,0.6227721857973959
+5,1,hand:cum_mean_token_entropy [task-rel],1.0,0.6236956320989935
+5,1,hand:mean_token_entropy,0.1,0.49312032505309816
+5,1,hand:mean_token_entropy,0.2,0.4965370763690091
+5,1,hand:mean_token_entropy,0.3,0.48831840428479084
+5,1,hand:mean_token_entropy,0.4,0.442792501616031
+5,1,hand:mean_token_entropy,0.5,0.4124111182934712
+5,1,hand:mean_token_entropy,0.6,0.42035275648721027
+5,1,hand:mean_token_entropy,0.7,0.4190599316649737
+5,1,hand:mean_token_entropy,0.8,0.4013297626743005
+5,1,hand:mean_token_entropy,0.9,0.3990211469203066
+5,1,hand:mean_token_entropy,1.0,0.3597746791024102
+5,1,hand:mean_token_entropy [task-rel],0.1,0.47465139902114695
+5,1,hand:mean_token_entropy [task-rel],0.2,0.45018007202881155
+5,1,hand:mean_token_entropy [task-rel],0.3,0.44057623049219685
+5,1,hand:mean_token_entropy [task-rel],0.4,0.4247852987348786
+5,1,hand:mean_token_entropy [task-rel],0.5,0.43291162618893714
+5,1,hand:mean_token_entropy [task-rel],0.6,0.431434112106381
+5,1,hand:mean_token_entropy [task-rel],0.7,0.4354972758334103
+5,1,hand:mean_token_entropy [task-rel],0.8,0.43263459229845785
+5,1,hand:mean_token_entropy [task-rel],0.9,0.4354049312032505
+5,1,hand:mean_token_entropy [task-rel],1.0,0.4309723889555822
+5,1,hand:cum_max_token_entropy,0.1,0.5446486286822422
+5,1,hand:cum_max_token_entropy,0.2,0.5389232616123373
+5,1,hand:cum_max_token_entropy,0.3,0.535229476405947
+5,1,hand:cum_max_token_entropy,0.4,0.5376304367901007
+5,1,hand:cum_max_token_entropy,0.5,0.5595161141379629
+5,1,hand:cum_max_token_entropy,0.6,0.5597931480284422
+5,1,hand:cum_max_token_entropy,0.7,0.5732754640317665
+5,1,hand:cum_max_token_entropy,0.8,0.5774309723889556
+5,1,hand:cum_max_token_entropy,0.9,0.5782620740603934
+5,1,hand:cum_max_token_entropy,1.0,0.5839874411302983
+5,1,hand:cum_max_token_entropy [task-rel],0.1,0.4704958906639579
+5,1,hand:cum_max_token_entropy [task-rel],0.2,0.4892418505863884
+5,1,hand:cum_max_token_entropy [task-rel],0.3,0.5395696740234556
+5,1,hand:cum_max_token_entropy [task-rel],0.4,0.5543448148490165
+5,1,hand:cum_max_token_entropy [task-rel],0.5,0.5664419613999446
+5,1,hand:cum_max_token_entropy [task-rel],0.6,0.5821405485271032
+5,1,hand:cum_max_token_entropy [task-rel],0.7,0.5916520454335581
+5,1,hand:cum_max_token_entropy [task-rel],0.8,0.595438175270108
+5,1,hand:cum_max_token_entropy [task-rel],0.9,0.5974697571336227
+5,1,hand:cum_max_token_entropy [task-rel],1.0,0.595807553790747
+5,1,hand:cum_mean_token_prob,0.1,0.5243328100470958
+5,1,hand:cum_mean_token_prob,0.2,0.558315633945886
+5,1,hand:cum_mean_token_prob,0.3,0.5073413980977006
+5,1,hand:cum_mean_token_prob,0.4,0.5090959460707359
+5,1,hand:cum_mean_token_prob,0.5,0.4713269923353957
+5,1,hand:cum_mean_token_prob,0.6,0.47003416751315913
+5,1,hand:cum_mean_token_prob,0.7,0.45008772739865177
+5,1,hand:cum_mean_token_prob,0.8,0.4360513436143688
+5,1,hand:cum_mean_token_prob,0.9,0.4255240557761566
+5,1,hand:cum_mean_token_prob,1.0,0.4006833502631822
+5,1,hand:cum_mean_token_prob [task-rel],0.1,0.5454797303536799
+5,1,hand:cum_mean_token_prob [task-rel],0.2,0.5085418782897775
+5,1,hand:cum_mean_token_prob [task-rel],0.3,0.4064087173330871
+5,1,hand:cum_mean_token_prob [task-rel],0.4,0.40871733308708097
+5,1,hand:cum_mean_token_prob [task-rel],0.5,0.3995752147012651
+5,1,hand:cum_mean_token_prob [task-rel],0.6,0.40391541231877365
+5,1,hand:cum_mean_token_prob [task-rel],0.7,0.3990211469203066
+5,1,hand:cum_mean_token_prob [task-rel],0.8,0.3937575030012005
+5,1,hand:cum_mean_token_prob [task-rel],0.9,0.3883091698217749
+5,1,hand:cum_mean_token_prob [task-rel],1.0,0.3775048480930834
+5,1,hand:cum_dpos,0.1,0.5071105365223012
+5,1,hand:cum_dpos,0.2,0.5071105365223012
+5,1,hand:cum_dpos,0.3,0.5071105365223012
+5,1,hand:cum_dpos,0.4,0.5071105365223012
+5,1,hand:cum_dpos,0.5,0.5071105365223012
+5,1,hand:cum_dpos,0.6,0.5071105365223012
+5,1,hand:cum_dpos,0.7,0.5071105365223012
+5,1,hand:cum_dpos,0.8,0.5071105365223012
+5,1,hand:cum_dpos,0.9,0.5071105365223012
+5,1,hand:cum_dpos,1.0,0.5071105365223012
+5,1,hand:cum_dpos [task-rel],0.1,0.43882168251916154
+5,1,hand:cum_dpos [task-rel],0.2,0.4645858343337335
+5,1,hand:cum_dpos [task-rel],0.3,0.48619447779111646
+5,1,hand:cum_dpos [task-rel],0.4,0.4914581217102226
+5,1,hand:cum_dpos [task-rel],0.5,0.5142672453596824
+5,1,hand:cum_dpos [task-rel],0.6,0.5305199002677994
+5,1,hand:cum_dpos [task-rel],0.7,0.5232246744851787
+5,1,hand:cum_dpos [task-rel],0.8,0.5088189121802568
+5,1,hand:cum_dpos [task-rel],0.9,0.49441314987533475
+5,1,hand:cum_dpos [task-rel],1.0,0.4692030658417213
+5,1,hand:cum_drot,0.1,0.4298642533936652
+5,1,hand:cum_drot,0.2,0.430695355065103
+5,1,hand:cum_drot,0.3,0.4060393388124481
+5,1,hand:cum_drot,0.4,0.4071474743743651
+5,1,hand:cum_drot,0.5,0.41047188106011634
+5,1,hand:cum_drot,0.6,0.4130575307045895
+5,1,hand:cum_drot,0.7,0.4251546772555176
+5,1,hand:cum_drot,0.8,0.43300397081909686
+5,1,hand:cum_drot,0.9,0.4614461169083018
+5,1,hand:cum_drot,1.0,0.498106935081725
+5,1,hand:cum_drot [task-rel],0.1,0.49312032505309816
+5,1,hand:cum_drot [task-rel],0.2,0.46375473266229567
+5,1,hand:cum_drot [task-rel],0.3,0.45082648443992984
+5,1,hand:cum_drot [task-rel],0.4,0.43244990303813835
+5,1,hand:cum_drot [task-rel],0.5,0.4660633484162896
+5,1,hand:cum_drot [task-rel],0.6,0.48998060762766643
+5,1,hand:cum_drot [task-rel],0.7,0.49413611598485546
+5,1,hand:cum_drot [task-rel],0.8,0.4969064548896482
+5,1,hand:cum_drot [task-rel],0.9,0.5092806353310555
+5,1,hand:cum_drot [task-rel],1.0,0.5357835441869055
+5,1,hand:dgripper,0.1,0.4957983193277311
+5,1,hand:dgripper,0.2,0.4957983193277311
+5,1,hand:dgripper,0.3,0.4957983193277311
+5,1,hand:dgripper,0.4,0.4957983193277311
+5,1,hand:dgripper,0.5,0.4957983193277311
+5,1,hand:dgripper,0.6,0.4957983193277311
+5,1,hand:dgripper,0.7,0.4957983193277311
+5,1,hand:dgripper,0.8,0.4957983193277311
+5,1,hand:dgripper,0.9,0.4957983193277311
+5,1,hand:dgripper,1.0,0.4957983193277311
+5,1,hand:dgripper [task-rel],0.1,0.49866100286268356
+5,1,hand:dgripper [task-rel],0.2,0.49866100286268356
+5,1,hand:dgripper [task-rel],0.3,0.49866100286268356
+5,1,hand:dgripper [task-rel],0.4,0.49866100286268356
+5,1,hand:dgripper [task-rel],0.5,0.49866100286268356
+5,1,hand:dgripper [task-rel],0.6,0.49866100286268356
+5,1,hand:dgripper [task-rel],0.7,0.49866100286268356
+5,1,hand:dgripper [task-rel],0.8,0.49866100286268356
+5,1,hand:dgripper [task-rel],0.9,0.49866100286268356
+5,1,hand:dgripper [task-rel],1.0,0.49866100286268356

@@ -323,3 +323,59 @@ def rolling_coverage(res, window=30):
         out_x.append(idx[j])
         out_y.append(1 - e[lo:j + 1].mean())
     return np.asarray(out_x), np.asarray(out_y)
+
+
+# ---------------------------------------------------------------------------
+# Task-relative scoring: cancel the task-dependent offset
+# ---------------------------------------------------------------------------
+#
+# Measured cause of the zero-shot calibration failure (experiments/MEETING_BRIEF.md):
+# SUCCESSFUL episodes of unseen tasks peak at a mean score of 15.29 versus 5.43
+# on seen tasks -- roughly 3x, about one seen-task standard deviation -- purely
+# because the task is unfamiliar. Between-task variance is 31% of total variance
+# among successes alone. A band calibrated on seen tasks is therefore far too
+# tight for an unseen one, and the miscoverage follows.
+#
+# The fix: score each episode against ITS OWN early behaviour rather than
+# against an absolute scale. Fit a straight line to the first `k` steps and
+# subtract its extrapolation. One transform covers both score shapes:
+#
+#   * cumulative scores (SAFE's cumsum head) grow roughly linearly at a
+#     task-dependent RATE, so the fitted line removes that rate;
+#   * per-step scores (H&S, agg="none") are roughly flat at a task-dependent
+#     LEVEL, so the fitted line removes that level.
+#
+# What survives is the deviation of the episode from its own early trend, which
+# is what a failure actually is. No labels, no task identity, nothing beyond the
+# episode itself -- so it is deployable in exactly the zero-shot setting where
+# split CP breaks.
+#
+# The assumption, stated plainly: the first k steps are nominal. A failure that
+# begins inside the first k steps is partly absorbed into the baseline and will
+# be masked. `k` is therefore a real hyperparameter and we sweep it.
+
+
+def detrend_by_early_window(curves: np.ndarray, k: int = 10) -> np.ndarray:
+    """Subtract a line fitted to each curve's first `k` timesteps.
+
+    Args:
+        curves: (N, T) score curves.
+        k: number of leading timesteps treated as nominal reference.
+    Returns:
+        (N, T) task-relative curves.
+    """
+    curves = np.asarray(curves, dtype=np.float64)
+    if curves.ndim == 1:
+        curves = curves[None, :]
+    N, T = curves.shape
+    k = int(np.clip(k, 2, T))
+
+    t = np.arange(T, dtype=np.float64)
+    tk = t[:k]
+    # least-squares line per row over the first k steps, vectorised
+    tbar = tk.mean()
+    ybar = curves[:, :k].mean(axis=1, keepdims=True)              # (N,1)
+    denom = ((tk - tbar) ** 2).sum()
+    slope = (((tk - tbar)[None, :]) * (curves[:, :k] - ybar)).sum(axis=1, keepdims=True) / denom
+    intercept = ybar - slope * tbar
+    return curves - (intercept + slope * t[None, :])
